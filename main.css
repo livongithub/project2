@@ -136,6 +136,10 @@ p {
         line-height: 120px;
     }
 
+    .categories {
+        font-size: 16.5px;
+    }
+
     #placeholder {
      grid-template-columns: repeat(5, 205px);
      grid-template-rows: repeat(23, 315px);
@@ -161,6 +165,10 @@ p {
     h1 {
         font-size: 80px;
         line-height: 85px;
+    }
+
+    .categories {
+        font-size: 15px;
     }
 
     #placeholder {
