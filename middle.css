@@ -1,0 +1,124 @@
+body {
+    background-color: #FAF8ED;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-family: 'Gloock', serif;
+    text-align: center;
+    font-size: 130px;
+    font-weight: 300;
+    line-height: 130px;
+}
+
+
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#middle {
+    text-decoration: underline;
+}
+
+#back {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#back:hover {
+    color: lightgrey;
+}
+
+.categories >*:hover {
+    text-decoration: underline;
+    /* color: gray; */
+}
+
+#placeholder{
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 205px 205px 205px 205px 205px 205px 205px;
+    grid-template-rows: 315px 315px 315px 315px;
+    /* align-self: end; */
+    align-items: last baseline;
+    /* display: grid;
+    grid-row: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ; */
+}
+
+#placeholder>*:hover {
+    filter: drop-shadow(2px 2px 2px rgb(51, 51, 51));
+    opacity: 95%;
+}
+
+img {
+    width: 205px;
+    justify-content: space-between;
+    filter: drop-shadow(2px 2px 2px gray);
+    /* position: absolute; */
+    /* display: flex;
+    flex-direction: column; */
+}
+
+/* img:hover {
+    margin-bottom: 50px;
+} */
+
+@media screen and (max-width: 1240px){
+    #placeholder {
+     grid-template-columns: repeat(6, 205px);
+     grid-template-rows: repeat(4, 315px);
+    } 
+ 
+ }
+ 
+ @media screen and (max-width: 1040px){
+     h1{
+         font-size: 130px;
+         line-height: 120px;
+     }
+ 
+     #placeholder {
+      grid-template-columns: repeat(5, 205px);
+      grid-template-rows: repeat(5, 315px);
+     } 
+  
+  }
+ 
+  @media screen and (max-width: 844px){
+
+ 
+     #placeholder {
+      grid-template-columns: repeat(4, 205px);
+      grid-template-rows: repeat(6, 315px);
+     } 
+  
+  }
+ 
+ 
+ @media screen and ( max-width: 640px ){
+ 
+     #placeholder {
+         grid-template-columns: repeat(3, 205px);
+         grid-template-rows: repeat(8, 315px);
+        } 
+     
+     }
+ 

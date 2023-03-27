@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Min stemple samling </title>
+        <meta name="description" content="">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>    
+        <h1>Min stemple samling</h1>
+
+        <div class="categories">
+            <a href="country.html">country</a>
+            <a href="price.html">price</a>
+            <a href="red.html">color</a>
+            <a href="fish.html">sections</a>
+        </div>
+
+        <div class="quicklook" id="quicklook"> 
+
+        <div class="quicklook-content">
+            <img src="img/cross.png" id="close-button" onclick="hideQuickLook()"></img>
+            <br>
+            <img id ="quicklook-image"></img>
+            <div id="information">
+                <p id = "country"> country: </p>
+                <p id = "price"> price: </p>
+                <p id = "color"> color: </p>
+                <p id = "section"> section: </p>
+            </div>
+        </div>
+
+        </div>
+     
+
+        <div id="placeholder">
+
+        </div>
+        
+        <script src="main.js" async defer></script>
+    </body>
+</html>
