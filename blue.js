@@ -800,6 +800,9 @@ for(i=0; i < itemsList.length; i++) {
 
     img.src = itemsList[i].image
 
+    let id = 'stamp' + [i+1]
+    img.id = id
+
   }
 
 

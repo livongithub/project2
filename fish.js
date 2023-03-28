@@ -793,8 +793,15 @@ let itemsList = [
       img.src = itemsList[i].image
   
     }
-  
-  
   }
+
+  let menuIcon = document.getElementById('menuIcon')
+  let burgerMenu = document.getElementById('burgerMenu')
+
+  menuIcon.addEventListener('click', function() {
+console.log('ok')
+
+burgerMenu.style.animationPlayState = 'play'
+  })
   
   
