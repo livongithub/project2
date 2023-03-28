@@ -125,4 +125,34 @@ img {
         } 
      
      }
+
+
+     @media screen and ( max-width: 400px) {
+
+        h1 {
+            font-size: 105px;
+        }
+     
+        .categories {
+            font-size: 13px;
+        }
+
+        #placeholder > * {
+            transform: rotate(0deg);
+            margin-bottom: 50px;
+            width: 70%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #placeholder {
+            display: block;
+        }
+
+        .holders {
+            display: none;
+        }
+    }
+ 
  

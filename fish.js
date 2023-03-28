@@ -799,9 +799,10 @@ let itemsList = [
   let burgerMenu = document.getElementById('burgerMenu')
 
   menuIcon.addEventListener('click', function() {
-console.log('ok')
+    
+  console.log('ok')
 
-burgerMenu.style.animationPlayState = 'play'
+  burgerMenu.style.animationPlayState = 'play'
   })
   
   
