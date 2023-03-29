@@ -8,9 +8,10 @@ a {
     
 }
 
-.burgerMenu , .menuIcon {
+#arrows {
     display: none;
 }
+
 
 .categories {
     text-align: center;
@@ -121,60 +122,23 @@ img {
     }
  
      #placeholder {
+        margin-top: -100px;
       grid-template-columns: repeat(4, 205px);
       grid-template-rows: repeat(3, 315px);
       margin-top: none;
      } 
 
-     .menuIcon {
-        display: block;
-     }
-
-     .menuIcon , .cross {
-        width: 30px;
-        filter: drop-shadow(0px 0px 0px);
+     #arrows {
+        margin-top: -50px;
+        display: flex; 
+        flex-direction: row;
+        transform: scale(.25);
+        align-items: center;
         opacity: 30%;
     }
-    
-    .cross{
-        position: absolute;
-        margin-top: 15px;
-        margin-left: 10px;
-    }
-    
-    .menuIcon:hover , .cross:hover {
-        opacity: 60%;
-    }
-    
-    .burgerMenu {
-        display: block;
-        filter: drop-shadow(3px 3px 3px grey );
-        position: absolute;
-        background-color: #FAF8ED;
-        width: 40vw;
-        height: 110vh;
-        margin-left: -10px;
-        top: -10px;
-        z-index: 400;
-        animation-name: burgerInn;
-        animation-duration: .25s;
-        animation-timing-function: ease-in-out;
-        animation-play-state: paused;
-    }
 
-    @keyframes burgerInn {
-        0% {
-            margin-left: -50vw;
-        }
-    }
-    
-    .sections {
-        display: flex;
-        flex-direction: column;
-        padding: 50px;
-        text-align: left;
-        gap: 2em;
-        font-family: Arial, Helvetica, sans-serif;
+    #arrows>*:hover {
+        opacity: 60%;
     }
   
   }
@@ -204,8 +168,13 @@ img {
             margin-right: auto;
         }
 
+        #arrows {
+            margin-top: -100px;
+        }
+
         #placeholder {
             display: block;
+            margin-top: 0px;
         }
 
         .holders {
