@@ -107,13 +107,6 @@ let itemsList = [
       "category": "allegories/figure of power"
     },
     {
-      "image": "img/stamp16.png",
-      "price_in_USD": 0.53,
-      "country": "Belgium",
-      "color": "blue",
-      "category": "landmark"
-    },
-    {
       "image": "img/stamp17.png",
       "price_in_USD": 0.27,
       "country": "France",
@@ -791,7 +784,9 @@ let itemsList = [
       Placeholder.append(img)
   
       img.src = itemsList[i].image
-  
+
+      let id = 'stamp' + [i+1]
+      img.id = id
     }
   
   

@@ -780,89 +780,53 @@ let itemsList = [
   }
 ]
 
+
 // adding the image files 
 
 let Placeholder = document.getElementById("placeholder")
 
-// let quicklook = document.getElementById("quicklook");
+let quickLookImage = document.getElementById('quicklook-image')
+let quickLookCountry = document.getElementById('country')
+let quickLookPrice = document.getElementById('price')
+let quickLookColor = document.getElementById('color')
+let quickLookSection = document.getElementById('section')
 
-// let quickLookImage = document.getElementById('quicklook-image')
-// let country = document.getElementById('country')
-// let price = document.getElementById('price')
-// let color = document.getElementById('color')
-// let section = document.getElementById('section')
 
 for(i=0; i < itemsList.length; i++) {
-
-    let img = document.createElement('img')
+  let img = document.createElement('img')
     // let quickLook = document.createElement('div')
 
-    Placeholder.append(img)
-    // Placeholder.append(quickLook)
-   
-
-    img.src = itemsList[i].image
-
-    // let mainDiv = document.createElement('div')
-
-    // let crossOut = document.createElement('img')
-    // let stampLook = document.createElement('img')
-
-    // let information = document.createElement('div')
-    // let country = document.createElement ('p')
-    // let price = document.createElement ('p')
-    // let color = document.createElement ('p')
-    // let category = document.createElement ('p')
-
-    // quickLook.append(mainDiv)
-
-    // mainDiv.append(crossOut)
-    // mainDiv.append(stampLook)
-
-    // mainDiv.append(information)
-    // information.append(country)
-    // information.append(price)
-    // information.append(color)
-    // information.append(category)
-
-    // crossOut.src = 'img/cross.png'
-    // stampLook.src = itemsList[i].image
-    // country.innerHTML = 'country:  ' + itemsList[i].country
-    // price.innerHTML = 'price: $' + itemsList[i].price_in_USD
-    // color.innerHTML = 'color: ' + itemsList[i].color
-    // category.innerHTML = 'section: ' + itemsList[i].category
-
-    // crossOut.style.width = "30px"
-    // crossOut.style.height = "30px"
-    // crossOut.style.opacity = "50%"
-    // crossOut.style.position = "absolute"
-    // crossOut.style.top = "10px"
-    // crossOut.style.right = "10px"
-    // crossOut.style.filter = "drop-shadow(0px 0px 0px gray);"
-
-    // quickLook.style.backgroundColor = "#FAF8ED"
-    // quickLook.style.borderRadius = '10px'
-    // quickLook.style.filter = 'drop-shadow(2px 2px 2px gray)'
-    // mainDiv.style.padding = '100px'
-
-    // quickLook.style.position = "fixed"
+    let titleColor = document.createElement('p')
     
-    // giving an id to all of my stamps
+    Placeholder.append(img)
+  
+    img.src = itemsList[i].image
 
     let id = 'stamp' + [i+1]
     img.id = id
-
-    img.addEventListener('click',() => {
-      quicklook.style.display = "block";
-      quickLookImage.src = itemsList[i].image
-
-    })
 }
+
+
+
+
+Placeholder.addEventListener('click', (event) => {
+  let imageHolder = event.target.src
+  // quicklook.style.display = "block";
+  // quickLookImage.src = imageHolder 
+
+  let item = itemsList.find(item => item.image === imageHolder);
+
+  quicklook.style.display = "block";
+  quickLookImage.src = imageHolder;
+  quickLookCountry.innerHTML = 'Country: ' + item.country;
+  quickLookColor.innerHTML = 'Color: ' + item.color;
+  quickLookPrice.innerHTML = 'Price: ' + item.price_in_USD;
+
+});
 
 
 
 function hideQuickLook() {
   quicklook.style.display = "none";
 }
-
 

@@ -2270,3 +2270,11 @@ p {
         }
     }
 
+
+@media screen and (min-width: 1435px){
+    .stamps {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

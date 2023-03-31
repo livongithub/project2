@@ -790,7 +790,7 @@ let itemsList = [
   // adding the image files 
   for(i=0; i < itemsList.length; i++) {
   
-    if (itemsList[i].price_in_USD > 2.00) {
+    if (1.00 < itemsList[i].price_in_USD < 2.00) {
   
       let Placeholder = document.getElementById("placeholder")
       let img = document.createElement('img')

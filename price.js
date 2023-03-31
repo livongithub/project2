@@ -787,10 +787,25 @@ let itemsList = [
     }
   ]
   
+
+
+// const slider = document.getElementById("price-slider");
+// const container = document.getElementById("image-container");
+
+// slider.addEventListener("input", () => {
+//   const index = slider.value;
+//   let Placeholder = document.getElementById("placeholder")
+//   let img = document.createElement('img')
+//   Placeholder.append(img)
+  
+//       img.src = itemsList.image
+// })
+  
+
   // adding the image files 
   for(i=0; i < itemsList.length; i++) {
   
-    if (itemsList[i].price_in_USD > 1.00) {
+    if (itemsList[i].price_in_USD < 1.00) {
   
       let Placeholder = document.getElementById("placeholder")
       let img = document.createElement('img')
@@ -803,5 +818,4 @@ let itemsList = [
   
   
   }
-  
   

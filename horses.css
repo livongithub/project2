@@ -755,8 +755,8 @@ img {
                 opacity: 55%;
                 filter: drop-shadow(0px 4px 4px black 16%);
             }
-    
-            #six {
+
+            #seven{
                 z-index: 0;
             }
                     #stamp31{
@@ -770,14 +770,14 @@ img {
                         transform: rotate(-0.7deg);
                         z-index: 0;
                     }
-                    #stamp54 {
-                        transform: rotate(-5.3deg);
-                        z-index: 0;
-                    }
-    
-            #five {
+
+            #eight{
                 z-index: 100;
             }
+                    #stamp54 {
+                        transform: rotate(-5.3deg);
+                        z-index: 50;
+                    }
                     #stamp55 {
                         transform: rotate(2.39deg);
                         z-index: 50;
@@ -786,87 +786,99 @@ img {
                         transform: rotate(-2.63deg);
                         z-index: 50;
                     }
+    
+            #six {
+                z-index: 200;
+            }
                     #stamp64{
-                        z-index: 50;
+                        z-index: 150;
                     }
                     #stamp65{
                         transform: rotate(-0.7deg);
-                        z-index: 50;
+                        z-index: 150;
                     }
-    
-            #one{
-                z-index: 200;
-            }
                     #stamp67{
                         transform: rotate(2.7deg);
                         z-index: 150;
                     }
+
+            #five {
+                z-index: 300;
+            }
                     #stamp68{
                         transform: rotate(4.2deg);
-                        z-index: 150;
+                        z-index: 250;
                     }
                     #stamp71 {
                         transform: rotate(-5.3deg);
-                        z-index: 150;
+                        z-index: 250;
                     }
                     #stamp72 {
                         transform: rotate(2.39deg);
-                        z-index: 150;
+                        z-index: 250;
                     }
+
+
     
-            #two{
-                z-index: 300;
+            #one{
+                z-index: 400;
             }
                     #stamp73 {
                         transform: rotate(-2.63deg);
-                        z-index: 250;
+                        z-index: 350;
                     }
                     #stamp74{
                         transform: rotate(3.19deg);
-                        z-index: 250;
+                        z-index: 350;
                     }
                     #stamp75{
                         transform: rotate(0.36deg);
-                        z-index: 250;
+                        z-index: 350;
                     }
+
+
+    
+            #two{
+                z-index: 500;
+            }
                     #stamp76{
                         transform: rotate(-0.65deg);
-                        z-index: 250;
+                        z-index: 450;
+                    }
+                    #stamp80{
+                        transform: rotate(-5.3deg);
+                        z-index: 450;
+                    }
+                    #stamp81{
+                        z-index: 450;
                     }
        
             #three{
-                z-index: 400;
+                z-index: 600;
             }
-                    #stamp80{
-                        transform: rotate(-5.3deg);
-                        z-index: 350;
-                    }
-                    #stamp81{
-                        z-index: 350;
-                    }
                     #stamp82{ 
                         transform: rotate(-4.7deg);
-                        z-index: 350;
+                        z-index: 550;
                     }
                     #stamp83{
                         transform: rotate(2.7deg);
-                        z-index: 350;
+                        z-index: 550;
+                    }
+                    #stamp87 {
+                        transform: rotate(-5.3deg);
+                        z-index: 550;
                     }
     
             #four {
-                z-index: 500;
+                z-index: 700;
             }
-                    #stamp87 {
-                        transform: rotate(-5.3deg);
-                        z-index: 450;
-                    }
                     #stamp88 {
                         transform: rotate(2.39deg);
-                        z-index: 450;
+                        z-index: 650;
                     }
                     #stamp89 {
                         transform: rotate(-2.63deg);
-                        z-index: 450;
+                        z-index: 650;
                     }
          
          
