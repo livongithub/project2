@@ -74,7 +74,192 @@ img {
     /* position: absolute; */
     /* display: flex;
     flex-direction: column; */
+    z-index: 0;
 }
+
+.holders>* {
+    display: flex;
+    flex-direction: column;
+    gap: 175px;
+    position: absolute;
+    margin-top: 300px;
+    /* z-index: 300; */
+    margin-left: -10px;
+    /* z-index: 100; */
+}
+
+.firstQuery {
+    margin-top: -1370px;
+}
+
+.firstQuery>* {
+    width: 105vw;
+    height: 140px;
+    background-color: #D9D9D9;
+    opacity: 55%;
+    filter: drop-shadow(0px 4px 4px black 16%);
+   
+}
+
+#one {
+    z-index: 100;
+}
+        #stamp11{
+            transform: rotate(2.3deg);
+            z-index: 0;
+        }
+        #stamp12{
+            transform: rotate(-5.3deg);
+            z-index: 0;
+        }
+        #stamp13 {
+            z-index: 0;
+        }
+        #stamp14{
+            transform: rotate(-0.7deg);
+            z-index: 0;
+        }
+        #stamp15{ 
+            transform: rotate(-4.7deg);
+            z-index: 0;
+        }
+        #stamp17{
+            transform: rotate(4.2deg);
+            z-index: 0;
+        }
+        #stamp18 {
+            transform: rotate(-3.34deg);
+            z-index: 50;
+        }
+
+ #two{
+    z-index: 100;
+}
+        #stamp19 {
+            transform: rotate(3.84deg);
+            z-index: 50;
+        }
+        #stamp20 {
+            transform: rotate(-5.3deg);
+            z-index: 50;
+        }
+        #stamp21 {
+            transform: rotate(2.39deg);
+            z-index: 50;
+        }
+        #stamp22 {
+            transform: rotate(-2.63deg);
+            z-index: 50;
+        }
+        #stamp23{
+            transform: rotate(3.19deg);
+            z-index: 50;
+        }
+        #stamp24{
+            transform: rotate(0.36deg);
+            z-index: 50;
+        }
+        #stamp25{
+            transform: rotate(-0.65deg);
+            z-index: 50;
+        }
+
+ #three{
+     z-index:200;
+}
+        #stamp26{
+            transform: rotate(4.64deg);
+            z-index: 150;
+        }
+        #stamp27{
+            transform: rotate(-3.8deg);
+            z-index: 150;
+        }
+        #stamp28{
+            transform: rotate(2.3deg);
+            z-index: 150;
+        }
+        #stamp29{
+            transform: rotate(-5.3deg);
+            z-index: 150;
+        }
+        #stamp30{
+            z-index: 150;
+        }
+        #stamp32{ 
+            transform: rotate(-4.7deg);
+            z-index: 150;
+        }
+        #stamp92{
+            transform: rotate(-0.65deg);
+            z-index: 150;
+        }
+
+ #four{
+    z-index: 300;
+}
+        #stamp93{
+            transform: rotate(4.64deg);
+            z-index: 250;
+        }
+        #stamp94{
+            transform: rotate(-3.8deg);
+            z-index: 250;
+        }
+        #stamp95{
+            transform: rotate(2.3deg);
+            z-index: 250;
+        }
+        #stamp96{
+            transform: rotate(-5.3deg);
+            z-index: 250;
+        }
+        #stamp98{
+            transform: rotate(-0.7deg);
+            z-index: 250;
+        }
+        #stamp102 {
+            transform: rotate(-3.34deg);
+            z-index: 250;
+        }
+        #stamp103 {
+            transform: rotate(3.84deg);
+            z-index: 250;
+        }
+
+ #five{
+     z-index: 400;
+}
+        #stamp105 {
+            transform: rotate(2.39deg);
+            z-index: 350;
+        }
+        #stamp106 {
+            transform: rotate(-2.63deg);
+            z-index: 350;
+        }
+        #stamp107{
+            transform: rotate(3.19deg);
+            z-index: 350;
+        }
+        #stamp108{
+            transform: rotate(0.36deg);
+            z-index: 350;
+        }
+        #stamp109{
+            transform: rotate(-0.65deg);
+            z-index: 350;
+        }
+        #stamp110{
+            transform: rotate(4.64deg);
+            z-index: 350;
+        }
+        #stamp111{
+            transform: rotate(-3.8deg);
+            z-index: 350;
+        }
+
+
 
 /* img:hover {
     margin-bottom: 50px;
@@ -85,6 +270,181 @@ img {
      grid-template-columns: repeat(6, 205px);
      grid-template-rows: repeat(6, 315px);
     } 
+
+    .secondQuery {
+        margin-top: -1685px;
+    }
+    
+    .secondQuery>* {
+        width: 105vw;
+        height: 140px;
+        background-color: #D9D9D9;
+        opacity: 55%;
+        filter: drop-shadow(0px 4px 4px black 16%);
+       
+    }
+
+    #six {
+        z-index: 0;
+    }
+            #stamp11{
+                transform: rotate(2.3deg);
+                z-index: 0;
+            }
+            #stamp12{
+                transform: rotate(-5.3deg);
+                z-index: 0;
+            }
+            #stamp13 {
+                z-index: 0;
+            }
+            #stamp14{
+                transform: rotate(-0.7deg);
+                z-index: 0;
+            }
+            #stamp15{ 
+                transform: rotate(-4.7deg);
+                z-index: 0;
+            }
+            #stamp17{
+                transform: rotate(4.2deg);
+                z-index: 0;
+            }
+
+    #one {
+        z-index: 100;
+    }
+            #stamp18 {
+                transform: rotate(-3.34deg);
+                z-index: 50;
+            }
+            #stamp19 {
+                transform: rotate(3.84deg);
+                z-index: 50;
+            }
+            #stamp20 {
+                transform: rotate(-5.3deg);
+                z-index: 50;
+            }
+            #stamp21 {
+                transform: rotate(2.39deg);
+                z-index: 50;
+            }
+            #stamp22 {
+                transform: rotate(-2.63deg);
+                z-index: 50;
+            }
+            #stamp23{
+                transform: rotate(3.19deg);
+                z-index: 50;
+            }
+    
+    #two{
+        z-index: 200;
+    }
+            #stamp24{
+                transform: rotate(0.36deg);
+                z-index: 150;
+            }
+            #stamp25{
+                transform: rotate(-0.65deg);
+                z-index: 150;
+            }
+            #stamp26{
+                transform: rotate(4.64deg);
+                z-index: 150;
+            }
+            #stamp27{
+                transform: rotate(-3.8deg);
+                z-index: 150;
+            }
+            #stamp28{
+                transform: rotate(2.3deg);
+                z-index: 150;
+            }
+            #stamp29{
+                transform: rotate(-5.3deg);
+                z-index: 150;
+            }
+    
+    #three{
+        z-index:300;
+    }
+            #stamp30{
+                z-index: 250;
+            }
+            #stamp32{ 
+                transform: rotate(-4.7deg);
+                z-index: 250;
+            }
+            #stamp92{
+                transform: rotate(-0.65deg);
+                z-index: 250;
+            }
+            #stamp93{
+                transform: rotate(4.64deg);
+                z-index: 250;
+            }
+            #stamp94{
+                transform: rotate(-3.8deg);
+                z-index: 250;
+            }
+            #stamp95{
+                transform: rotate(2.3deg);
+                z-index: 250;
+            }
+    
+    #four{
+        z-index: 400;
+    }
+            #stamp96{
+                transform: rotate(-5.3deg);
+                z-index: 350;
+            }
+            #stamp98{
+                transform: rotate(-0.7deg);
+                z-index: 350;
+            }
+            #stamp102 {
+                transform: rotate(-3.34deg);
+                z-index: 350;
+            }
+            #stamp103 {
+                transform: rotate(3.84deg);
+                z-index: 350;
+            }
+            #stamp105 {
+                transform: rotate(2.39deg);
+                z-index: 350;
+            }
+            #stamp106 {
+                transform: rotate(-2.63deg);
+                z-index: 350;
+            }
+    
+    #five{
+        z-index: 500;
+    }
+            #stamp107{
+                transform: rotate(3.19deg);
+                z-index: 450;
+            }
+            #stamp108{
+                transform: rotate(0.36deg);
+                z-index: 450;
+            }
+            #stamp109{
+                transform: rotate(-0.65deg);
+                z-index: 450;
+            }
+            #stamp110{
+                transform: rotate(4.64deg);
+                z-index: 450;
+            }
+            #stamp111{
+                transform: rotate(-3.8deg);
+                z-index: 450;
+            }
  
  }
  
@@ -94,6 +454,186 @@ img {
       grid-template-columns: repeat(5, 205px);
       grid-template-rows: repeat(7, 315px);
      } 
+
+     .thirdQuery {
+        margin-top: -2000px;
+    }
+    
+    .thirdQuery>* {
+        width: 105vw;
+        height: 140px;
+        background-color: #D9D9D9;
+        opacity: 55%;
+        filter: drop-shadow(0px 4px 4px black 16%);
+       
+    }
+
+
+     #seven {
+        z-index: 0;
+     }
+            #stamp11{
+                transform: rotate(2.3deg);
+                z-index: 0;
+            }
+            #stamp12{
+                transform: rotate(-5.3deg);
+                z-index: 0;
+            }
+            #stamp13 {
+                z-index: 0;
+            }
+            #stamp14{
+                transform: rotate(-0.7deg);
+                z-index: 0;
+            }
+            #stamp15{ 
+                transform: rotate(-4.7deg);
+                z-index: 0;
+            }
+
+     #six {
+        z-index: 100;
+    }
+            #stamp17{
+                transform: rotate(4.2deg);
+                z-index: 50;
+            }
+            #stamp18 {
+                transform: rotate(-3.34deg);
+                z-index: 50;
+            }
+            #stamp19 {
+                transform: rotate(3.84deg);
+                z-index: 50;
+            }
+            #stamp20 {
+                transform: rotate(-5.3deg);
+                z-index: 50;
+            }
+            #stamp21 {
+                transform: rotate(2.39deg);
+                z-index: 50;
+            }
+
+    #one {
+        z-index: 200;
+    }
+            #stamp22 {
+                transform: rotate(-2.63deg);
+                z-index: 150;
+            }
+            #stamp23{
+                transform: rotate(3.19deg);
+                z-index: 150;
+            }
+            #stamp24{
+                transform: rotate(0.36deg);
+                z-index: 150;
+            }
+            #stamp25{
+                transform: rotate(-0.65deg);
+                z-index: 150;
+            }
+            #stamp26{
+                transform: rotate(4.64deg);
+                z-index: 150;
+            }
+    
+    #two{
+        z-index: 300;
+    }
+            #stamp27{
+                transform: rotate(-3.8deg);
+                z-index: 250;
+            }
+            #stamp28{
+                transform: rotate(2.3deg);
+                z-index: 250;
+            }
+            #stamp29{
+                transform: rotate(-5.3deg);
+                z-index: 250;
+            }
+            #stamp30{
+                z-index: 250;
+            }
+            #stamp32{ 
+                transform: rotate(-4.7deg);
+                z-index: 250;
+            }
+    
+    #three{
+        z-index:400;
+    }
+            #stamp92{
+                transform: rotate(-0.65deg);
+                z-index: 350;
+            }
+            #stamp93{
+                transform: rotate(4.64deg);
+                z-index: 350;
+            }
+            #stamp94{
+                transform: rotate(-3.8deg);
+                z-index: 350;
+            }
+            #stamp95{
+                transform: rotate(2.3deg);
+                z-index: 350;
+            }
+            #stamp96{
+                transform: rotate(-5.3deg);
+                z-index: 350;
+            }
+    
+    #four{
+        z-index: 400;
+    }
+            #stamp98{
+                transform: rotate(-0.7deg);
+                z-index: 350;
+            }
+            #stamp102 {
+                transform: rotate(-3.34deg);
+                z-index: 350;
+            }
+            #stamp103 {
+                transform: rotate(3.84deg);
+                z-index: 350;
+            }
+            #stamp105 {
+                transform: rotate(2.39deg);
+                z-index: 350;
+            }
+            #stamp106 {
+                transform: rotate(-2.63deg);
+                z-index: 350;
+            }
+    
+    #five{
+        z-index: 500;
+    }
+            #stamp107{
+                transform: rotate(3.19deg);
+                z-index: 450;
+            }
+            #stamp108{
+                transform: rotate(0.36deg);
+                z-index: 450;
+            }
+            #stamp109{
+                transform: rotate(-0.65deg);
+                z-index: 450;
+            }
+            #stamp110{
+                transform: rotate(4.64deg);
+                z-index: 450;
+            }
+            #stamp111{
+                transform: rotate(-3.8deg);
+                z-index: 450;
+            }
   
   }
  
@@ -115,6 +655,195 @@ img {
       margin-top: none;
 
      } 
+
+     .fourthQuery {
+        margin-top: -2630px;
+    }
+    
+    .fourthQuery>* {
+        width: 105vw;
+        height: 140px;
+        background-color: #D9D9D9;
+        opacity: 55%;
+        filter: drop-shadow(0px 4px 4px black 16%);
+       
+    }
+
+    #eight{
+        z-index: 0;
+    }
+            #stamp11{
+                transform: rotate(2.3deg);
+                z-index: 0;
+            }
+            #stamp12{
+                transform: rotate(-5.3deg);
+                z-index: 0;
+            }
+            #stamp13 {
+                z-index: 0;
+            }
+            #stamp14{
+                transform: rotate(-0.7deg);
+                z-index: 0;
+            }
+
+    #nine{
+        z-index: 100;
+    }
+            #stamp15{ 
+                transform: rotate(-4.7deg);
+                z-index: 50;
+            }
+            #stamp17{
+                transform: rotate(4.2deg);
+                z-index: 50;
+            }
+            #stamp18 {
+                transform: rotate(-3.34deg);
+                z-index: 50;
+            }
+            #stamp19 {
+                transform: rotate(3.84deg);
+                z-index: 50;
+            }
+
+
+     #seven {
+        z-index: 200;
+     }
+            #stamp20 {
+                transform: rotate(-5.3deg);
+                z-index: 150;
+            }
+            #stamp21 {
+                transform: rotate(2.39deg);
+                z-index: 150;
+            }
+            #stamp22 {
+                transform: rotate(-2.63deg);
+                z-index: 150;
+            }
+            #stamp23{
+                transform: rotate(3.19deg);
+                z-index: 150;
+            }
+
+
+     #six {
+        z-index: 300;
+    }
+            #stamp24{
+                transform: rotate(0.36deg);
+                z-index: 250;
+            }
+            #stamp25{
+                transform: rotate(-0.65deg);
+                z-index: 250;
+            }
+            #stamp26{
+                transform: rotate(4.64deg);
+                z-index: 250;
+            }
+            #stamp27{
+                transform: rotate(-3.8deg);
+                z-index: 250;
+            }
+
+    #one {
+        z-index: 400;
+    }
+            #stamp28{
+                transform: rotate(2.3deg);
+                z-index: 350;
+            }
+            #stamp29{
+                transform: rotate(-5.3deg);
+                z-index: 350;
+            }
+            #stamp30{
+                z-index: 350;
+            }
+            #stamp32{ 
+                transform: rotate(-4.7deg);
+                z-index: 350;
+            }
+    
+    #two{
+        z-index: 500;
+    }
+            #stamp92{
+                transform: rotate(-0.65deg);
+                z-index: 450;
+            }
+            #stamp93{
+                transform: rotate(4.64deg);
+                z-index: 450;
+            }
+            #stamp94{
+                transform: rotate(-3.8deg);
+                z-index: 450;
+            }
+            #stamp95{
+                transform: rotate(2.3deg);
+                z-index: 450;
+            }
+    
+    #three{
+        z-index:600;
+    }
+            #stamp96{
+                transform: rotate(-5.3deg);
+                z-index: 550;
+            }
+            #stamp98{
+                transform: rotate(-0.7deg);
+                z-index: 550;
+            }
+            #stamp102 {
+                transform: rotate(-3.34deg);
+                z-index: 550;
+            }
+            #stamp103 {
+                transform: rotate(3.84deg);
+                z-index: 550;
+            }
+    
+    #four{
+        z-index: 700;
+    }
+            #stamp105 {
+                transform: rotate(2.39deg);
+                z-index: 650;
+            }
+            #stamp106 {
+                transform: rotate(-2.63deg);
+                z-index: 650;
+            }
+            #stamp107{
+                transform: rotate(3.19deg);
+                z-index: 650;
+            }
+            #stamp108{
+                transform: rotate(0.36deg);
+                z-index: 650;
+            }
+    
+    #five{
+        z-index: 800;
+    }
+            #stamp109{
+                transform: rotate(-0.65deg);
+                z-index: 750;
+            }
+            #stamp110{
+                transform: rotate(4.64deg);
+                z-index: 750;
+            }
+            #stamp111{
+                transform: rotate(-3.8deg);
+                z-index: 750;
+            }
   
   }
  
@@ -130,8 +859,210 @@ img {
          grid-template-columns: repeat(3, 205px);
          grid-template-rows: repeat(12, 315px);
         } 
-     
+
+        .fifthQuery {
+            margin-top: -3575px;
+        }
+        
+        .fifthQuery>* {
+            width: 105vw;
+            height: 140px;
+            background-color: #D9D9D9;
+            opacity: 55%;
+            filter: drop-shadow(0px 4px 4px black 16%);
+           
+        }
+
+        #ten{
+            z-index: 0;
+        }
+                #stamp11{
+                    transform: rotate(2.3deg);
+                    z-index: 0;
+                }
+                #stamp12{
+                    transform: rotate(-5.3deg);
+                    z-index: 0;
+                }
+                #stamp13 {
+                    z-index: 0;
+                }
+
+        #eleven{
+            z-index: 100;
+        }
+                #stamp14{
+                    transform: rotate(-0.7deg);
+                    z-index: 50;
+                }                
+                #stamp15{ 
+                    transform: rotate(-4.7deg);
+                    z-index: 50;
+                }
+                #stamp17{
+                    transform: rotate(4.2deg);
+                    z-index: 50;
+                }
+    
+        #twelve{
+            z-index: 200;
+        }
+                #stamp18 {
+                    transform: rotate(-3.34deg);
+                    z-index: 150;
+                }
+                #stamp19 {
+                    transform: rotate(3.84deg);
+                    z-index: 150;
+                }
+                #stamp20 {
+                    transform: rotate(-5.3deg);
+                    z-index: 150;
+                }
+
+        #eight{
+            z-index: 300;
+        }
+                #stamp21 {
+                    transform: rotate(2.39deg);
+                    z-index: 250;
+                }
+                #stamp22 {
+                    transform: rotate(-2.63deg);
+                    z-index: 250;
+                }
+                #stamp23{
+                    transform: rotate(3.19deg);
+                    z-index: 250;
+                }
+
+         #nine {
+            z-index: 400;
+         }
+                #stamp24{
+                    transform: rotate(0.36deg);
+                    z-index: 350;
+                }
+                #stamp25{
+                    transform: rotate(-0.65deg);
+                    z-index: 350;
+                }
+                #stamp26{
+                    transform: rotate(4.64deg);
+                    z-index: 350;
+                }
+ 
+         #seven {
+            z-index: 500;
+        }
+                #stamp27{
+                    transform: rotate(-3.8deg);
+                    z-index: 450;
+                }
+                #stamp28{
+                    transform: rotate(2.3deg);
+                    z-index: 450;
+                }
+                #stamp29{
+                    transform: rotate(-5.3deg);
+                    z-index: 450;
+                }
+    
+        #six {
+            z-index: 600;
+        }
+                #stamp30{
+                    z-index: 550;
+                }
+                #stamp32{ 
+                    transform: rotate(-4.7deg);
+                    z-index: 550;
+                }
+                #stamp92{
+                    transform: rotate(-0.65deg);
+                    z-index: 550;
+                }
+        
+        #one{
+            z-index: 700;
+        }
+                #stamp93{
+                    transform: rotate(4.64deg);
+                    z-index: 650;
+                }
+                #stamp94{
+                    transform: rotate(-3.8deg);
+                    z-index: 650;
+                }
+                #stamp95{
+                    transform: rotate(2.3deg);
+                    z-index: 650;
+                }
+        
+        #two{
+            z-index:800;
+        }
+                #stamp96{
+                    transform: rotate(-5.3deg);
+                    z-index: 750;
+                }
+                #stamp98{
+                    transform: rotate(-0.7deg);
+                    z-index: 750;
+                }
+                #stamp102 {
+                    transform: rotate(-3.34deg);
+                    z-index: 750;
+                }
+ 
+        
+        #three{
+            z-index: 900;
+        }
+                #stamp103 {
+                    transform: rotate(3.84deg);
+                    z-index: 850;
+                }
+                #stamp105 {
+                    transform: rotate(2.39deg);
+                    z-index: 850;
+                }
+                #stamp106 {
+                    transform: rotate(-2.63deg);
+                    z-index: 850;
+                }
+
+        
+        #four{
+            z-index: 1000;
+        }
+                    #stamp107{
+                        transform: rotate(3.19deg);
+                        z-index: 750;
+                    }
+                    #stamp108{
+                        transform: rotate(0.36deg);
+                        z-index: 750;
+                    }
+                    #stamp109{
+                        transform: rotate(-0.65deg);
+                        z-index: 750;
+                    }
+
+            #five {
+                z-index: 1100;
+            }
+                    #stamp110{
+                        transform: rotate(4.64deg);
+                        z-index: 1050;
+                    }
+                    #stamp111{
+                        transform: rotate(-3.8deg);
+                        z-index: 1050;
+                    }
+            
      }
+
 
      @media screen and ( max-width: 400px) {
 

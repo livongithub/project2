@@ -76,6 +76,69 @@ img {
     flex-direction: column; */
 }
 
+.holders>* {
+    display: flex;
+    flex-direction: column;
+    gap: 175px;
+    position: absolute;
+    margin-top: 300px;
+    /* z-index: 300; */
+    margin-left: -10px;
+}
+
+.firstQuery {
+    margin-top: -420px;
+}
+
+.firstQuery>* {
+    width: 105vw;
+    height: 140px;
+    background-color: #D9D9D9;
+    opacity: 55%;
+    filter: drop-shadow(0px 4px 4px black 16%);
+}
+
+#one {
+    z-index: 0;
+}
+
+#two {
+    z-index: 100;
+}
+
+#stamp49{
+    z-index: 0;
+    transform: rotate(-0.65deg);
+}
+#stamp50{
+    z-index: 0;
+    transform: rotate(0.36deg);
+}
+#stamp51{
+    z-index: 0;
+    transform: rotate(3.19deg);
+}
+#stamp52{
+    z-index: 0;
+    transform: rotate(-2.63deg);
+}        
+#stamp59{
+    z-index: 0;
+    transform: rotate(2.39deg);
+}
+#stamp60{
+    z-index: 0;
+    transform: rotate(-5.3deg);
+}
+#stamp61{
+    z-index: 0;
+    transform: rotate(3.84deg);
+}
+#stamp62{
+    z-index: 50;
+    transform: rotate(-5.3deg);
+}
+
 /* img:hover {
     margin-bottom: 50px;
 } */
@@ -85,6 +148,11 @@ img {
      grid-template-columns: repeat(6, 205px);
      grid-template-rows: repeat(2, 315px);
     } 
+
+    #stamp61{
+        z-index: 50;
+        transform: rotate(3.84deg);
+    }
  
  }
  
@@ -98,6 +166,11 @@ img {
       grid-template-columns: repeat(5, 205px);
       grid-template-rows: repeat(2, 315px);
      } 
+
+     #stamp60{
+        z-index: 50;
+        transform: rotate(-5.3deg);
+    }
   
   }
  
@@ -113,6 +186,11 @@ img {
       margin-top: none;
 
      } 
+
+     #stamp59{
+        z-index: 50;
+        transform: rotate(2.39deg);
+    }
   
   }
  
@@ -123,6 +201,50 @@ img {
          grid-template-columns: repeat(3, 205px);
          grid-template-rows: repeat(3, 315px);
         } 
+
+        .secondQuery {
+            margin-top: -725px;
+        }
+        
+        .secondQuery>* {
+            width: 105vw;
+            height: 140px;
+            background-color: #D9D9D9;
+            opacity: 55%;
+            filter: drop-shadow(0px 4px 4px black 16%);
+        }
+
+    #three{
+        z-index: 0;
+    }
+
+    #one{
+        z-index: 100;
+    }
+            #stamp52{
+                z-index: 50;
+                transform: rotate(-2.63deg);
+            }        
+            #stamp59{
+                z-index: 50;
+                transform: rotate(2.39deg);
+            }
+            #stamp60{
+                z-index: 50;
+                transform: rotate(-5.3deg);
+            }
+
+    #two {
+        z-index: 200;
+    }
+            #stamp61{
+                z-index: 150;
+                transform: rotate(3.84deg);
+            }
+            #stamp62{
+                z-index: 150;
+                transform: rotate(-5.3deg);
+            }
      
      }
 

@@ -791,8 +791,13 @@ let itemsList = [
       Placeholder.append(img)
   
       img.src = itemsList[i].image
+
+      let id = 'stamp' + [i+1]
+      img.id = id
+  
   
     }
+
   }
 
   let menuIcon = document.getElementById('menuIcon')

@@ -97,481 +97,116 @@ img {
     flex-direction: column; */
 }
 
-#stamp1 {
-    transform: rotate(-3.34deg)
-}
-
-#stamp2 {
-    transform: rotate(3.84deg);
-}
-
-#stamp3 {
-    transform: rotate(-5.3deg);
-    z-index: -12;
-}
-
-#stamp4 {
-    transform: rotate(2.39deg);
-    z-index: 6;
-}
-
-#stamp5 {
-    transform: rotate(-2.63deg);
-}
-
-#stamp6{
-    transform: rotate(3.19deg);
-}
-
-#stamp7{
-    transform: rotate(0.36deg);
-}
-
-#stamp8{
-    transform: rotate(-0.65deg);
-}
-
-#stamp9{
-    transform: rotate(4.64deg);
-}
-
-#stamp10{
-    transform: rotate(-3.8deg);
-}
-
-#stamp11{
-    transform: rotate(2.3deg);
-}
-
-#stamp12{
-    transform: rotate(-5.3deg);
-}
-
-#stamp13{}
-
-#stamp14{
-    transform: rotate(-0.7deg);
-}
-
-#stamp15{ 
-    transform: rotate(-4.7deg)
-}
-
-#stamp16{
-    transform: rotate(2.7deg)
-}
-
-#stamp17{
-    transform: rotate(4.2deg)
-}
-
-#stamp18 {
-    transform: rotate(-3.34deg)
-}
-
-#stamp19 {
-    transform: rotate(3.84deg);
-}
-
-#stamp20 {
-    transform: rotate(-5.3deg);
-    z-index: -12;
-}
-
-#stamp21 {
-    transform: rotate(2.39deg);
-    z-index: 2;
-}
-
-#stamp22 {
-    transform: rotate(-2.63deg);
-}
-
-#stamp23{
-    transform: rotate(3.19deg);
-}
-
-#stamp24{
-    transform: rotate(0.36deg);
-}
-
-#stamp25{
-    transform: rotate(-0.65deg);
-}
-
-#stamp26{
-    transform: rotate(4.64deg);
-}
-
-#stamp27{
-    transform: rotate(-3.8deg);
-}
-
-#stamp28{
-    transform: rotate(2.3deg);
-}
-
-#stamp29{
-    transform: rotate(-5.3deg);
-}
-
-#stamp30{}
-
-#stamp31{
-    transform: rotate(-0.7deg);
-}
-
-#stamp32{ 
-    transform: rotate(-4.7deg)
-}
-
-#stamp33{
-    transform: rotate(2.7deg)
-}
-
-#stamp34{
-    transform: rotate(4.2deg)
-}
-
-#stamp35 {
-    transform: rotate(-3.34deg)
-}
-
-#stamp36 {
-    transform: rotate(3.84deg);
-}
-
-#stamp37 {
-    transform: rotate(-5.3deg);
-    z-index: -12;
-}
-
-#stamp38 {
-    transform: rotate(2.39deg);
-    z-index: -3;
-}
-
-#stamp39 {
-    transform: rotate(-2.63deg);
-}
-
-#stamp40{
-    transform: rotate(3.19deg);
-}
-
-#stamp41{
-    transform: rotate(0.36deg);
-}
-
-#stamp42{
-    transform: rotate(-0.65deg);
-}
-
-#stamp43{
-    transform: rotate(4.64deg);
-}
-
-#stamp44{
-    transform: rotate(-3.8deg);
-}
-
-#stamp45{
-    transform: rotate(2.3deg);
-}
-
-#stamp46{
-    transform: rotate(-5.3deg);
-}
-
-#stamp47{}
-
-#stamp48{
-    transform: rotate(-0.7deg);
-}
-
-#stamp49{ 
-    transform: rotate(-4.7deg)
-}
-
-#stamp50{
-    transform: rotate(2.7deg)
-}
-
-#stamp51{
-    transform: rotate(4.2deg)
-}
-
-#stamp52 {
-    transform: rotate(-3.34deg)
-}
-
-#stamp53 {
-    transform: rotate(3.84deg);
-}
-
-#stamp54 {
-    transform: rotate(-5.3deg);
-    z-index: -6;
-}
-
-#stamp55 {
-    transform: rotate(2.39deg);
-    z-index: -12;
-}
-
-#stamp56 {
-    transform: rotate(-2.63deg);
-}
-
-#stamp57{
-    transform: rotate(3.19deg);
-}
-
-#stamp58{
-    transform: rotate(0.36deg);
-}
-
-#stamp59{
-    transform: rotate(-0.65deg);
-}
-
-#stamp60{
-    transform: rotate(4.64deg);
-}
-
-#stamp61{
-    transform: rotate(-3.8deg);
-}
-
-#stamp62{
-    transform: rotate(2.3deg);
-}
-
-#stamp63{
-    transform: rotate(-5.3deg);
-}
-
-#stamp64{}
-
-#stamp65{
-    transform: rotate(-0.7deg);
-}
-
-#stamp66{ 
-    transform: rotate(-4.7deg)
-}
-
-#stamp67{
-    transform: rotate(2.7deg)
-}
-
-#stamp68{
-    transform: rotate(4.2deg)
-}
-
-#stamp69 {
-    transform: rotate(-3.34deg)
-}
-
-#stamp70 {
-    transform: rotate(3.84deg);
-}
-
-#stamp71 {
-    transform: rotate(-5.3deg);
-    z-index: -6;
-}
-
-#stamp72 {
-    transform: rotate(2.39deg);
-    z-index: -12;
-}
-
-#stamp73 {
-    transform: rotate(-2.63deg);
-}
-
-#stamp74{
-    transform: rotate(3.19deg);
-}
-
-#stamp75{
-    transform: rotate(0.36deg);
-}
-
-#stamp76{
-    transform: rotate(-0.65deg);
-}
-
-#stamp77{
-    transform: rotate(4.64deg);
-}
-
-#stamp78{
-    transform: rotate(-3.8deg);
-}
-
-#stamp79{
-    transform: rotate(2.3deg);
-}
-
-#stamp80{
-    transform: rotate(-5.3deg);
-}
-
-#stamp81{}
-
-#stamp14{
-    transform: rotate(-0.7deg);
-}
-
-#stamp82{ 
-    transform: rotate(-4.7deg)
-}
-
-#stamp83{
-    transform: rotate(2.7deg)
-}
-
-#stamp84{
-    transform: rotate(4.2deg)
-}
-
-#stamp85 {
-    transform: rotate(-3.34deg)
-}
-
-#stamp86 {
-    transform: rotate(3.84deg);
-}
-
-#stamp87 {
-    transform: rotate(-5.3deg);
-    z-index: -12;
-}
-
-#stamp88 {
-    transform: rotate(2.39deg);
-    z-index: 6;
-}
-
-#stamp89 {
-    transform: rotate(-2.63deg);
-}
-
-#stamp90{
-    transform: rotate(3.19deg);
-}
-
-#stamp91{
-    transform: rotate(0.36deg);
-}
-
-#stamp92{
-    transform: rotate(-0.65deg);
-}
-
-#stamp93{
-    transform: rotate(4.64deg);
-}
-
-#stamp94{
-    transform: rotate(-3.8deg);
-}
-
-#stamp95{
-    transform: rotate(2.3deg);
-}
-
-#stamp96{
-    transform: rotate(-5.3deg);
-}
-
-#stamp97{}
-
-#stamp98{
-    transform: rotate(-0.7deg);
-}
-
-#stamp99{ 
-    transform: rotate(-4.7deg)
-}
-
-#stamp100{
-    transform: rotate(2.7deg)
-}
-
-#stamp101{
-    transform: rotate(4.2deg)
-}
-
-#stamp102 {
-    transform: rotate(-3.34deg)
-}
-
-#stamp103 {
-    transform: rotate(3.84deg);
-}
-
-#stamp104 {
-    transform: rotate(-5.3deg);
-    z-index: -12;
-}
-
-#stamp105 {
-    transform: rotate(2.39deg);
-    z-index: 6;
-}
-
-#stamp106 {
-    transform: rotate(-2.63deg);
-}
-
-#stamp107{
-    transform: rotate(3.19deg);
-}
-
-#stamp108{
-    transform: rotate(0.36deg);
-}
-
-#stamp109{
-    transform: rotate(-0.65deg);
-}
-
-#stamp110{
-    transform: rotate(4.64deg);
-}
-
-#stamp111{
-    transform: rotate(-3.8deg);
-}
-
-#stamp112{
-    transform: rotate(2.3deg);
-}
-
-#stamp113{
-    transform: rotate(-5.3deg);
-}
-
-#stamp114{}
-
-#stamp115{
-    transform: rotate(-0.7deg);
-}
-
-#stamp116{ 
-    transform: rotate(-4.7deg)
-}
-
-#stamp117{
-    transform: rotate(2.7deg)
-}
-
-#stamp118{
-    transform: rotate(4.2deg)
-}
+#one{
+    z-index: 0;
+}
+        #stamp4 {
+            transform: rotate(2.39deg);
+            z-index: 0;
+        }
+        #stamp5 {
+            transform: rotate(-2.63deg);
+        }
+        #stamp16{
+            transform: rotate(2.7deg)
+        }
+        #stamp19 {
+            transform: rotate(3.84deg);
+        }
+        #stamp20 {
+            transform: rotate(-5.3deg);
+            z-index: -12;
+        }
+        #stamp28{
+            transform: rotate(2.3deg);
+        }
+        #stamp29{
+            transform: rotate(-5.3deg);
+        }
+
+#two {
+    z-index: 100;
+}
+        #stamp34{
+            transform: rotate(4.2deg);
+            z-index: 50;
+        }
+        #stamp36 {
+            transform: rotate(3.84deg);
+            z-index: 50;
+        }
+        #stamp37 {
+            transform: rotate(-5.3deg);
+            z-index: 50;
+        }
+        #stamp38 {
+            transform: rotate(2.39deg);
+            z-index: 50;
+        }
+        #stamp41{
+            transform: rotate(0.36deg);
+            z-index: 50;
+        }
+        #stamp44{
+            transform: rotate(-3.8deg);
+            z-index: 50;
+        }
+        #stamp46{
+            transform: rotate(-5.3deg);
+            z-index: 50;
+        }
+
+#three {
+    z-index: 200;
+}
+        #stamp59{
+            transform: rotate(-0.65deg);
+            z-index: 150;
+        }
+        #stamp76{
+            transform: rotate(-0.65deg);
+            z-index: 150;
+        }
+        #stamp77{
+            transform: rotate(4.64deg);
+            z-index: 150;
+        }
+        #stamp79{
+            transform: rotate(2.3deg);
+            z-index: 150;
+        }
+        #stamp85 {
+            transform: rotate(-3.34deg);
+            z-index: 150;
+        }
+        #stamp91{
+            transform: rotate(0.36deg);
+            z-index: 150;
+        }
+        #stamp92{
+            transform: rotate(-0.65deg);
+            z-index: 150;
+        }
+
+#four{
+    z-index: 300;
+}
+        #stamp93{
+            transform: rotate(4.64deg);
+            z-index: 250;
+        }
+        #stamp101{
+            transform: rotate(4.2deg);
+            z-index: 250;
+        }
+        #stamp104 {
+            transform: rotate(-5.3deg);
+            z-index: 250;
+        }
+        #stamp111{
+            transform: rotate(-3.8deg);
+            z-index: 250;
+        }
 
 /* img:hover {
     margin-bottom: 50px;
@@ -594,6 +229,122 @@ img {
         opacity: 55%;
         filter: drop-shadow(0px 4px 4px black 16%);
     }
+
+    #five {
+        z-index: 0;
+    }
+            #stamp4 {
+                transform: rotate(2.39deg);
+                z-index: 0;
+            }
+            #stamp5 {
+                transform: rotate(-2.63deg);
+            }
+            #stamp16{
+                transform: rotate(2.7deg)
+            }
+            #stamp19 {
+                transform: rotate(3.84deg);
+            }
+            #stamp20 {
+                transform: rotate(-5.3deg);
+                z-index: -12;
+            }
+            #stamp28{
+                transform: rotate(2.3deg);
+            }
+
+    #one{
+        z-index: 100;
+    }
+            #stamp29{
+                transform: rotate(-5.3deg);
+                z-index: 50;
+            }
+            #stamp34{
+                transform: rotate(4.2deg);
+                z-index: 50;
+            }
+            #stamp36 {
+                transform: rotate(3.84deg);
+                z-index: 50;
+            }
+            #stamp37 {
+                transform: rotate(-5.3deg);
+                z-index: 50;
+            }
+            #stamp38 {
+                transform: rotate(2.39deg);
+                z-index: 50;
+            }
+            #stamp41{
+                transform: rotate(0.36deg);
+                z-index: 50;
+            }
+    
+    #two {
+        z-index: 200;
+    }
+            #stamp44{
+                transform: rotate(-3.8deg);
+                z-index: 150;
+            }
+            #stamp46{
+                transform: rotate(-5.3deg);
+                z-index: 150;
+            }
+            #stamp59{
+                transform: rotate(-0.65deg);
+                z-index: 150;
+            }
+            #stamp76{
+                transform: rotate(-0.65deg);
+                z-index: 150;
+            }
+            #stamp77{
+                transform: rotate(4.64deg);
+                z-index: 150;
+            }
+            #stamp79{
+                transform: rotate(2.3deg);
+                z-index: 150;
+            }
+    
+    #three {
+        z-index: 300;
+    }
+            #stamp85 {
+                transform: rotate(-3.34deg);
+                z-index: 250;
+            }
+            #stamp91{
+                transform: rotate(0.36deg);
+                z-index: 250;
+            }
+            #stamp92{
+                transform: rotate(-0.65deg);
+                z-index: 250;
+            }
+            #stamp93{
+                transform: rotate(4.64deg);
+                z-index: 250;
+            }
+            #stamp101{
+                transform: rotate(4.2deg);
+                z-index: 250;
+            }
+            #stamp104 {
+                transform: rotate(-5.3deg);
+                z-index: 250;
+            }
+    
+    #four{
+        z-index: 400;
+    }
+            #stamp111{
+                transform: rotate(-3.8deg);
+                z-index: 350;
+            }
  
  }
  
@@ -629,6 +380,134 @@ img {
         opacity: 55%;
         filter: drop-shadow(0px 4px 4px black 16%);
     }
+
+    #six {
+        z-index: 0;
+    }
+            #stamp4 {
+                transform: rotate(2.39deg);
+                z-index: 0;
+            }
+            #stamp5 {
+                transform: rotate(-2.63deg);
+            }
+            #stamp16{
+                transform: rotate(2.7deg)
+            }
+            #stamp19 {
+                transform: rotate(3.84deg);
+            }
+
+    #seven{
+        z-index: 100;
+    }
+            #stamp20 {
+                transform: rotate(-5.3deg);
+                z-index: 50;
+            }
+            #stamp28{
+                transform: rotate(2.3deg);
+                z-index: 50;
+            }
+            #stamp29{
+                transform: rotate(-5.3deg);
+                z-index: 50;
+            }
+            #stamp34{
+                transform: rotate(4.2deg);
+                z-index: 50;
+            }
+
+    #five {
+        z-index: 200;
+    }
+            #stamp36 {
+                transform: rotate(3.84deg);
+                z-index: 150;
+            }
+            #stamp37 {
+                transform: rotate(-5.3deg);
+                z-index: 150;
+            }
+            #stamp38 {
+                transform: rotate(2.39deg);
+                z-index: 150;
+            }
+            #stamp41{
+                transform: rotate(0.36deg);
+                z-index: 150;
+            }
+
+    #one{
+        z-index: 300;
+    }
+            #stamp44{
+                transform: rotate(-3.8deg);
+                z-index: 250;
+            }
+            #stamp46{
+                transform: rotate(-5.3deg);
+                z-index: 250;
+            }
+            #stamp59{
+                transform: rotate(-0.65deg);
+                z-index: 250;
+            }
+            #stamp76{
+                transform: rotate(-0.65deg);
+                z-index: 250;
+            }
+
+
+    
+    #two {
+        z-index: 400;
+    }
+            #stamp77{
+                transform: rotate(4.64deg);
+                z-index: 350;
+            }
+            #stamp79{
+                transform: rotate(2.3deg);
+                z-index: 350;
+            }
+            #stamp85 {
+                transform: rotate(-3.34deg);
+                z-index: 350;
+            }
+            #stamp91{
+                transform: rotate(0.36deg);
+                z-index: 350;
+            }
+    
+    #three {
+        z-index: 500;
+    }
+            #stamp92{
+                transform: rotate(-0.65deg);
+                z-index: 450;
+            }
+            #stamp93{
+                transform: rotate(4.64deg);
+                z-index: 450;
+            }
+            #stamp101{
+                transform: rotate(4.2deg);
+                z-index: 450;
+            }
+            #stamp104 {
+                transform: rotate(-5.3deg);
+                z-index: 450;
+            }
+    
+    #four{
+        z-index: 600;
+    }
+            #stamp111{
+                transform: rotate(-3.8deg);
+                z-index: 550;
+            }
+ 
   
   }
  
@@ -651,6 +530,141 @@ img {
             opacity: 55%;
             filter: drop-shadow(0px 4px 4px black 16%);
         }
+
+        #eight{
+            z-index: 0;
+        }
+                #stamp4 {
+                    transform: rotate(2.39deg);
+                    z-index: 0;
+                }
+                #stamp5 {
+                    transform: rotate(-2.63deg);
+                }
+                #stamp16{
+                    transform: rotate(2.7deg)
+                }
+
+        #nine{
+            z-index: 100;
+        }
+                #stamp19 {
+                    transform: rotate(3.84deg);
+                    z-index: 50;
+                }
+                #stamp20 {
+                    transform: rotate(-5.3deg);
+                    z-index: 50;
+                }
+                #stamp28{
+                    transform: rotate(2.3deg);
+                    z-index: 50;
+                }
+
+        #six {
+            z-index: 200;
+        }
+                #stamp29{
+                    transform: rotate(-5.3deg);
+                    z-index: 150;
+                }
+                #stamp34{
+                    transform: rotate(4.2deg);
+                    z-index: 150;
+                }
+                #stamp36 {
+                    transform: rotate(3.84deg);
+                    z-index: 150;
+                }
+
+        #seven{
+            z-index: 300;
+        }
+                #stamp37 {
+                    transform: rotate(-5.3deg);
+                    z-index: 250;
+                }
+                #stamp38 {
+                    transform: rotate(2.39deg);
+                    z-index: 250;
+                }
+                #stamp41{
+                    transform: rotate(0.36deg);
+                    z-index: 250;
+                }
+    
+        #five {
+            z-index: 400;
+        }
+                #stamp44{
+                    transform: rotate(-3.8deg);
+                    z-index: 350;
+                }
+                #stamp46{
+                    transform: rotate(-5.3deg);
+                    z-index: 350;
+                }
+                #stamp59{
+                    transform: rotate(-0.65deg);
+                    z-index: 350;
+                }
+    
+        #one{
+            z-index: 500;
+        }
+                #stamp76{
+                    transform: rotate(-0.65deg);
+                    z-index: 450;
+                }
+                #stamp77{
+                    transform: rotate(4.64deg);
+                    z-index: 450;
+                }
+                #stamp79{
+                    transform: rotate(2.3deg);
+                    z-index: 450;
+                }
+            
+        #two {
+            z-index: 600;
+        }
+                #stamp85 {
+                    transform: rotate(-3.34deg);
+                    z-index: 550;
+                }
+                #stamp91{
+                    transform: rotate(0.36deg);
+                    z-index: 550;
+                }
+                #stamp92{
+                    transform: rotate(-0.65deg);
+                    z-index: 550;
+                }
+        
+        #three {
+            z-index: 700;
+        }
+                #stamp93{
+                    transform: rotate(4.64deg);
+                    z-index: 650;
+                }
+                #stamp101{
+                    transform: rotate(4.2deg);
+                    z-index: 650;
+                }
+                #stamp104 {
+                    transform: rotate(-5.3deg);
+                    z-index: 650;
+                }
+        
+        #four{
+            z-index: 800;
+        }
+                #stamp111{
+                    transform: rotate(-3.8deg);
+                    z-index: 750;
+                }
+     
      
      }
  
