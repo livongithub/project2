@@ -81,6 +81,31 @@ img {
     margin-bottom: 50px;
 } */
 
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .slider {
+    width: 200px;
+    margin: 0 10px;
+  }
+  
+  .gallery {
+    display: flex;
+    grid-template-columns: repeat (7, 205px);
+    grid-template-rows: repeat (18, 315pxs);
+    flex-wrap: wrap;
+  }
+  
+  .gallery img {
+    /* width: 150px; */
+    /* height: 200px; */
+    margin: 10px;
+  }
+
 @media screen and (max-width: 1240px){
     #placeholder {
      grid-template-columns: repeat(6, 205px);

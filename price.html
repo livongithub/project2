@@ -28,8 +28,15 @@
     
             <h1 id="mainTitle">Priser</h1>
 
-            <label for="price-slider">Price Range:</label>
-<input type="range" id="price-slider" min="0" max="3" step="1" value="0">
+            <div class="slider-container">
+              <input type="range" min="0" max="2" step="0.01" value="0" class="slider" id="price-slider">
+              <span>Price: <span id="slider-value">$0</span></span>
+            </div>
+            
+            <div class="gallery">
+              <!-- gallery images will be dynamically created here -->
+            </div>
+            
     
             <div class="categories">
 

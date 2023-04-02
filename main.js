@@ -1,5 +1,8 @@
-// defining my list 
+// the way this code works is that you are creating a mini array within your JSON file or large array. 
+// So each object is going to be its own array.
 
+
+// defining my list 
 let itemsList = [
   {
     "image": "img/stamp1.png",
@@ -32,7 +35,7 @@ let itemsList = [
   {
     "image": "img/stamp5.png",
     "price_in_USD": "",
-    "country": "?",
+    "country": "Russia",
     "color": "blue",
     "category": "birds"
   },
@@ -122,7 +125,7 @@ let itemsList = [
   },
   {
     "image": "img/stamp18.png",
-    "price_in_USD": 0.1855,
+    "price_in_USD": 0.19,
     "country": "Belgium",
     "color": "red",
     "category": "allegories/figure of power"
@@ -164,7 +167,7 @@ let itemsList = [
   },
   {
     "image": "img/stamp24.png",
-    "price_in_USD": 0.021,
+    "price_in_USD": 0.02,
     "country": "Belgium",
     "color": "green",
     "category": "allegories/figure of power"
@@ -213,7 +216,7 @@ let itemsList = [
   },
   {
     "image": "img/stamp32.png",
-    "price_in_USD": "N/A",
+    "price_in_USD": 0.64,
     "country": "Belgium",
     "color": "yellow",
     "category": "horses"
@@ -228,13 +231,13 @@ let itemsList = [
   {
     "image": "img/stamp34.png",
     "price_in_USD": "N/A",
-    "country": "N/A",
+    "country": "Russia",
     "color": "yellow",
     "category": "birds"
   },
   {
     "image": "img/stamp35.png",
-    "price_in_USD": 0.2,
+    "price_in_USD": 0.20,
     "country": "Rwanda",
     "color": "blue",
     "category": "birds"
@@ -311,7 +314,7 @@ let itemsList = [
   },
   {
     "image": "img/stamp46.png",
-    "price_in_USD": 0.0049,
+    "price_in_USD": 0.01,
     "country": "People's Republic of Kampuchea",
     "color": "green",
     "category": "fish"
@@ -325,21 +328,21 @@ let itemsList = [
   },
   {
     "image": "img/stamp48.png",
-    "price_in_USD": 0.00011,
+    "price_in_USD": 0.01,
     "country": "Guinea",
     "color": "yellow",
     "category": "horses"
   },
   {
     "image": "img/stamp49.png",
-    "price_in_USD": 0.00022,
+    "price_in_USD": 0.01,
     "country": "Guinea",
     "color": "yellow",
     "category": "horses"
   },
   {
     "image": "img/stamp51.png",
-    "price_in_USD": 0.076,
+    "price_in_USD": 0.08,
     "country": "Benin",
     "color": "red",
     "category": "dogs"
@@ -374,28 +377,28 @@ let itemsList = [
   },
   {
     "image": "img/stamp56.png",
-    "price_in_USD": 0.0081,
+    "price_in_USD": 0.01,
     "country": "Guinea",
     "color": "yellow",
     "category": "horses"
   },
   {
     "image": "img/stamp57.png",
-    "price_in_USD": 0.000012,
+    "price_in_USD": 0.01,
     "country": "Guniea",
     "color": "orange",
     "category": "horses"
   },
   {
     "image": "img/stamp58.png",
-    "price_in_USD": 0.022,
+    "price_in_USD": 0.02,
     "country": "Korea",
     "color": "yellow",
     "category": "horses"
   },
   {
     "image": "img/stamp60.png",
-    "price_in_USD": 0.046,
+    "price_in_USD": 0.05,
     "country": "Cambodia",
     "color": "yellow",
     "category": "cats"
@@ -437,14 +440,14 @@ let itemsList = [
   },
   {
     "image": "img/stamp66.png",
-    "price_in_USD": 0.023,
+    "price_in_USD": 0.02,
     "country": "Korea",
     "color": "green",
     "category": "cats"
   },
   {
     "image": "img/stamp68.png",
-    "price_in_USD": 0.046,
+    "price_in_USD": 0.05,
     "country": "Korea",
     "color": "yellow",
     "category": "horses"
@@ -458,7 +461,7 @@ let itemsList = [
   },
   {
     "image": "img/stamp70.png",
-    "price_in_USD": 2,
+    "price_in_USD": 2.00,
     "country": "Guyana",
     "color": "yellow",
     "category": "cats"
@@ -493,70 +496,70 @@ let itemsList = [
   },
   {
     "image": "img/stamp76.png",
-    "price_in_USD": 0.011,
+    "price_in_USD": 0.01,
     "country": "Korea",
     "color": "green",
     "category": "horses"
   },
   {
     "image": "img/stamp77.png",
-    "price_in_USD": 0.015,
+    "price_in_USD": 0.02,
     "country": "Korea",
     "color": "pink",
     "category": "horses"
   },
   {
     "image": "img/stamp78.png",
-    "price_in_USD": 0.073,
+    "price_in_USD": 0.07,
     "country": "Czechoslovakia",
     "color": "orange",
     "category": "horses"
   },
   {
     "image": "img/stamp79.png",
-    "price_in_USD": 0.0077,
+    "price_in_USD": 0.01,
     "country": "Korea",
     "color": "yellow",
     "category": "horses"
   },
   {
     "image": "img/stamp80.png",
-    "price_in_USD": 0.0038,
+    "price_in_USD": 0.01,
     "country": "Korea",
     "color": "green",
     "category": "horses"
   },
   {
     "image": "img/stamp81.png",
-    "price_in_USD": 0.038,
+    "price_in_USD": 0.04,
     "country": "Korea",
     "color": "blue",
     "category": "horses"
   },
   {
     "image": "img/stamp82.png",
-    "price_in_USD": 0.053,
+    "price_in_USD": 0.05,
     "country": "Belgium",
     "color": "blue",
     "category": "landmark"
   },
   {
     "image": "img/stamp83.png",
-    "price_in_USD": 0.046,
+    "price_in_USD": 0.05,
     "country": "Belgium",
     "color": "green",
     "category": "allegories/figures of power"
   },
   {
     "image": "img/stamp84.png",
-    "price_in_USD": 0.0045,
+    "price_in_USD": 0.01,
     "country": "Mongolia",
     "color": "blue",
     "category": "olympics"
   },
   {
     "image": "img/stamp85.png",
-    "price_in_USD": 0.023,
+    "price_in_USD": 0.02,
     "country": "Korea",
     "color": "pink",
     "category": "horses"
@@ -584,21 +587,21 @@ let itemsList = [
   },
   {
     "image": "img/stamp89.png",
-    "price_in_USD": 0.003,
+    "price_in_USD": 0.01,
     "country": "Mongolia",
     "color": "orange",
     "category": "olympics"
   },
   {
     "image": "img/stamp90.png",
-    "price_in_USD": 0.0045,
+    "price_in_USD": 0.01,
     "country": "Mongolia",
     "color": "blue",
     "category": "space exploration"
   },
   {
     "image": "img/stamp91.png",
-    "price_in_USD": 0.031,
+    "price_in_USD": 0.03,
     "country": "Korea",
     "color": "yellow",
     "category": "horses"
@@ -612,7 +615,7 @@ let itemsList = [
   },
   {
     "image": "img/stamp94.png",
-    "price_in_USD": 0.0012,
+    "price_in_USD": 0.01,
     "country": "Guinea",
     "color": "yellow",
     "category": "horses"
@@ -626,14 +629,14 @@ let itemsList = [
   },
   {
     "image": "img/stamp96.png",
-    "price_in_USD": 0.001,
+    "price_in_USD": 0.01,
     "country": "Mongolia",
     "color": "blue",
     "category": "olympics"
   },
   {
     "image": "img/stamp97.png",
-    "price_in_USD": 0.003,
+    "price_in_USD": 0.01,
     "country": "Mongolia",
     "color": "blue",
     "category": "space exploration"
@@ -689,21 +692,21 @@ let itemsList = [
   },
   {
     "image": "img/stamp104.png",
-    "price_in_USD": 0.006,
+    "price_in_USD": 0.01,
     "country": "Mongolia",
     "color": "red",
     "category": "space exploration"
   },
   {
     "image": "img/stamp105.png",
-    "price_in_USD": 0.009,
+    "price_in_USD": 0.01,
     "country": "Mongolia",
     "color": "blue",
     "category": "space exploration"
   },
   {
     "image": "img/stamp106.png",
-    "price_in_USD": 0.044831,
+    "price_in_USD": 0.04,
     "country": "Czechoslovakia",
     "color": "red",
     "category": "fish"
@@ -752,14 +755,14 @@ let itemsList = [
   },
   {
     "image": "img/stamp115.png",
-    "price_in_USD": 4.1,
+    "price_in_USD": 4.10,
     "country": "France",
     "color": "red",
     "category": "allegories/figure of power"
   },
   {
     "image": "img/stamp116.png",
-    "price_in_USD": 0.1,
+    "price_in_USD": 0.10,
     "country": "Norway",
     "color": "red",
     "category": "allegories/figure of power"
@@ -779,54 +782,49 @@ let itemsList = [
     "category": "allegories/figure of power"
   }
 ]
+// defining my variables 
+let Placeholder = document.getElementById("placeholder");
+
+// defining the variables for my modal (my pop up screen)
+// they are all already inside my HTML code 
+let quicklook = document.getElementById('quicklook');
+let quickLookImage = document.getElementById('quicklook-image');
+let quickLookCountry = document.getElementById('country');
+let quickLookPrice = document.getElementById('price');
+let quickLookColor = document.getElementById('color');
+let quickLookSection = document.getElementById('section');
 
 
-// adding the image files 
+for (let i = 0; i < itemsList.length; i++) {
+  // looping my images for the background
+  let img = document.createElement('img');
 
-let Placeholder = document.getElementById("placeholder")
+  img.src = itemsList[i].image;
+  img.id = 'stamp' + [i+1];
 
-let quickLookImage = document.getElementById('quicklook-image')
-let quickLookCountry = document.getElementById('country')
-let quickLookPrice = document.getElementById('price')
-let quickLookColor = document.getElementById('color')
-let quickLookSection = document.getElementById('section')
+  Placeholder.append(img);
 
+  // This is where the "quicklook" or "modal" code begins! 
+  // Add a click event listener to each stamp image
+  img.addEventListener('click', (event) => {
 
-for(i=0; i < itemsList.length; i++) {
-  let img = document.createElement('img')
-    // let quickLook = document.createElement('div')
+    // Get the clicked stamp's information, i'm creating a mini array called "stampInfo"
+    let stampInfo = itemsList[i];
 
-    let titleColor = document.createElement('p')
-    
-    Placeholder.append(img)
-  
-    img.src = itemsList[i].image
+    quicklook.style.display = "block";
 
-    let id = 'stamp' + [i+1]
-    img.id = id
+    quickLookImage.src = stampInfo.image;
+    quickLookCountry.innerHTML = ` country: ${stampInfo.country}`;
+    quickLookPrice.innerHTML = `price: ${stampInfo.price_in_USD ? '$' + stampInfo.price_in_USD : 'N/A'}`;
+    quickLookColor.innerHTML = `color: ${stampInfo.color}`;
+    quickLookSection.innerHTML = `category: ${stampInfo.category}`;
+  });
 }
 
-
-
-
-Placeholder.addEventListener('click', (event) => {
-  let imageHolder = event.target.src
-  // quicklook.style.display = "block";
-  // quickLookImage.src = imageHolder 
-
-  let item = itemsList.find(item => item.image === imageHolder);
-
-  quicklook.style.display = "block";
-  quickLookImage.src = imageHolder;
-  quickLookCountry.innerHTML = 'Country: ' + item.country;
-  quickLookColor.innerHTML = 'Color: ' + item.color;
-  quickLookPrice.innerHTML = 'Price: ' + item.price_in_USD;
-
-});
-
-
-
+// so that my quicklook goes away when clicking the cross, its a function i already defined in my HTML
 function hideQuickLook() {
   quicklook.style.display = "none";
 }
+
+
 

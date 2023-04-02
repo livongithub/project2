@@ -17,7 +17,7 @@ let itemsList = [
     },
     {
       "image": "img/stamp3.png",
-      "price_in_USD": "N/A",
+      "price_in_USD": 0.03,
       "country": "Polska",
       "color": "green",
       "category": "birds"
@@ -786,7 +786,44 @@ let itemsList = [
       "category": "allegories/figure of power"
     }
   ]
-  
+  // Get the slider and its value element
+const priceSlider = document.getElementById("price-slider");
+const sliderValue = document.getElementById("slider-value");
+
+// Set initial slider value
+sliderValue.innerHTML = "$" + priceSlider.value;
+
+// Add event listener to update slider value
+priceSlider.addEventListener("input", () => {
+  sliderValue.innerHTML = "$" + priceSlider.value;
+  filterImages();
+});
+
+// Get the gallery element
+const gallery = document.querySelector(".gallery");
+
+// Function to filter images by price
+function filterImages() {
+  // Clear the gallery
+  gallery.innerHTML = "";
+
+  // Loop through itemsList and add images that match the price range
+  for (let item of itemsList) {
+    if (
+      item.price_in_USD !== "N/A" &&
+      item.price_in_USD !== "" &&
+      parseFloat(item.price_in_USD) <= priceSlider.value
+    ) {
+      // Create the image element and add to the gallery
+      const img = document.createElement("img");
+      img.src = item.image;
+      gallery.appendChild(img);
+    }
+  }
+}
+
+// Call the filterImages function to initialize the gallery
+filterImages();
 
 
 // const slider = document.getElementById("price-slider");
@@ -803,19 +840,19 @@ let itemsList = [
   
 
   // adding the image files 
-  for(i=0; i < itemsList.length; i++) {
+  // for(i=0; i < itemsList.length; i++) {
   
-    if (itemsList[i].price_in_USD < 1.00) {
+  //   if (itemsList[i].price_in_USD < 1.00) {
   
-      let Placeholder = document.getElementById("placeholder")
-      let img = document.createElement('img')
+  //     let Placeholder = document.getElementById("placeholder")
+  //     let img = document.createElement('img')
   
-      Placeholder.append(img)
+  //     Placeholder.append(img)
   
-      img.src = itemsList[i].image
+  //     img.src = itemsList[i].image
   
-    }
+  //   }
   
   
-  }
+  // }
   
