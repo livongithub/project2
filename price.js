@@ -3,21 +3,21 @@
 let itemsList = [
     {
       "image": "img/stamp1.png",
-      "price_in_USD": 0.1,
+      "price_in_USD": 0.10,
       "country": "Repulic of Guinea Bisseau",
       "color": "Blue",
       "category": "birds"
     },
     {
       "image": "img/stamp2.png",
-      "price_in_USD": 0.005,
+      "price_in_USD": 0.01,
       "country": "Mongolia",
       "color": "pink",
       "category": "birds"
     },
     {
       "image": "img/stamp3.png",
-      "price_in_USD": 0.03,
+      "price_in_USD": "N/A",
       "country": "Polska",
       "color": "green",
       "category": "birds"
@@ -59,14 +59,14 @@ let itemsList = [
     },
     {
       "image": "img/stamp9.png",
-      "price_in_USD": 0.013,
+      "price_in_USD": 0.01,
       "country": "Australia",
       "color": "red",
       "category": "birds"
     },
     {
       "image": "img/stamp10.png",
-      "price_in_USD": 0.0025,
+      "price_in_USD": 0.01,
       "country": "Mongolia",
       "color": "green",
       "category": "nature"
@@ -87,7 +87,7 @@ let itemsList = [
     },
     {
       "image": "img/stamp13.png",
-      "price_in_USD": 0.053,
+      "price_in_USD": 0.05,
       "country": "Belgium",
       "color": "red",
       "category": "allegories/figure of power"
@@ -122,7 +122,7 @@ let itemsList = [
     },
     {
       "image": "img/stamp18.png",
-      "price_in_USD": 0.1855,
+      "price_in_USD": 0.19,
       "country": "Belgium",
       "color": "red",
       "category": "allegories/figure of power"
@@ -164,7 +164,7 @@ let itemsList = [
     },
     {
       "image": "img/stamp24.png",
-      "price_in_USD": 0.021,
+      "price_in_USD": 0.02,
       "country": "Belgium",
       "color": "green",
       "category": "allegories/figure of power"
@@ -234,7 +234,7 @@ let itemsList = [
     },
     {
       "image": "img/stamp35.png",
-      "price_in_USD": 0.2,
+      "price_in_USD": 0.20,
       "country": "Rwanda",
       "color": "blue",
       "category": "birds"
@@ -290,14 +290,14 @@ let itemsList = [
     },
     {
       "image": "img/stamp43.png",
-      "price_in_USD": 0.00012,
+      "price_in_USD": 0.01,
       "country": "People's Republic of Kampuchea",
       "color": "green",
       "category": "fish"
     },
     {
       "image": "img/stamp44.png",
-      "price_in_USD": 0.105,
+      "price_in_USD": 0.11,
       "country": "Republic of the Congo",
       "color": "green",
       "category": "fish"
@@ -311,7 +311,7 @@ let itemsList = [
     },
     {
       "image": "img/stamp46.png",
-      "price_in_USD": 0.0049,
+      "price_in_USD": 0.01,
       "country": "People's Republic of Kampuchea",
       "color": "green",
       "category": "fish"
@@ -325,21 +325,21 @@ let itemsList = [
     },
     {
       "image": "img/stamp48.png",
-      "price_in_USD": 0.00011,
+      "price_in_USD": 0.01,
       "country": "Guinea",
       "color": "yellow",
       "category": "horses"
     },
     {
       "image": "img/stamp49.png",
-      "price_in_USD": 0.00022,
+      "price_in_USD": 0.01,
       "country": "Guinea",
       "color": "yellow",
       "category": "horses"
     },
     {
       "image": "img/stamp51.png",
-      "price_in_USD": 0.076,
+      "price_in_USD": 0.08,
       "country": "Benin",
       "color": "red",
       "category": "dogs"
@@ -374,28 +374,28 @@ let itemsList = [
     },
     {
       "image": "img/stamp56.png",
-      "price_in_USD": 0.0081,
+      "price_in_USD": 0.01,
       "country": "Guinea",
       "color": "yellow",
       "category": "horses"
     },
     {
       "image": "img/stamp57.png",
-      "price_in_USD": 0.000012,
+      "price_in_USD": 0.01,
       "country": "Guniea",
       "color": "orange",
       "category": "horses"
     },
     {
       "image": "img/stamp58.png",
-      "price_in_USD": 0.022,
+      "price_in_USD": 0.02,
       "country": "Korea",
       "color": "yellow",
       "category": "horses"
     },
     {
       "image": "img/stamp60.png",
-      "price_in_USD": 0.046,
+      "price_in_USD": 0.05,
       "country": "Cambodia",
       "color": "yellow",
       "category": "cats"
@@ -437,14 +437,14 @@ let itemsList = [
     },
     {
       "image": "img/stamp66.png",
-      "price_in_USD": 0.023,
+      "price_in_USD": 0.02,
       "country": "Korea",
       "color": "green",
       "category": "cats"
     },
     {
       "image": "img/stamp68.png",
-      "price_in_USD": 0.046,
+      "price_in_USD": 0.05,
       "country": "Korea",
       "color": "yellow",
       "category": "horses"
@@ -507,56 +507,56 @@ let itemsList = [
     },
     {
       "image": "img/stamp78.png",
-      "price_in_USD": 0.073,
+      "price_in_USD": 0.07,
       "country": "Czechoslovakia",
       "color": "orange",
       "category": "horses"
     },
     {
       "image": "img/stamp79.png",
-      "price_in_USD": 0.0077,
+      "price_in_USD": 0.01,
       "country": "Korea",
       "color": "yellow",
       "category": "horses"
     },
     {
       "image": "img/stamp80.png",
-      "price_in_USD": 0.0038,
+      "price_in_USD": 0.01,
       "country": "Korea",
       "color": "green",
       "category": "horses"
     },
     {
       "image": "img/stamp81.png",
-      "price_in_USD": 0.038,
+      "price_in_USD": 0.04,
       "country": "Korea",
       "color": "blue",
       "category": "horses"
     },
     {
       "image": "img/stamp82.png",
-      "price_in_USD": 0.053,
+      "price_in_USD": 0.05,
       "country": "Belgium",
       "color": "blue",
       "category": "landmark"
     },
     {
       "image": "img/stamp83.png",
-      "price_in_USD": 0.046,
+      "price_in_USD": 0.05,
       "country": "Belgium",
       "color": "green",
       "category": "allegories/figures of power"
     },
     {
       "image": "img/stamp84.png",
-      "price_in_USD": 0.0045,
+      "price_in_USD": 0.01,
       "country": "Mongolia",
       "color": "blue",
       "category": "olympics"
     },
     {
       "image": "img/stamp85.png",
-      "price_in_USD": 0.023,
+      "price_in_USD": 0.02,
       "country": "Korea",
       "color": "pink",
       "category": "horses"
@@ -584,30 +584,23 @@ let itemsList = [
     },
     {
       "image": "img/stamp89.png",
-      "price_in_USD": 0.003,
+      "price_in_USD": 0.01,
       "country": "Mongolia",
       "color": "orange",
       "category": "olympics"
     },
     {
       "image": "img/stamp90.png",
-      "price_in_USD": 0.0045,
+      "price_in_USD": 0.01,
       "country": "Mongolia",
       "color": "blue",
       "category": "space exploration"
     },
     {
       "image": "img/stamp91.png",
-      "price_in_USD": 0.031,
+      "price_in_USD": 0.03,
       "country": "Korea",
       "color": "yellow",
-      "category": "horses"
-    },
-    {
-      "image": "img/stamp92.png",
-      "price_in_USD": 0.22,
-      "country": "Czechoslovakia",
-      "color": "red",
       "category": "horses"
     },
     {
@@ -619,7 +612,7 @@ let itemsList = [
     },
     {
       "image": "img/stamp94.png",
-      "price_in_USD": 0.0012,
+      "price_in_USD": 0.01,
       "country": "Guinea",
       "color": "yellow",
       "category": "horses"
@@ -633,14 +626,14 @@ let itemsList = [
     },
     {
       "image": "img/stamp96.png",
-      "price_in_USD": 0.001,
+      "price_in_USD": 0.01,
       "country": "Mongolia",
       "color": "blue",
       "category": "olympics"
     },
     {
       "image": "img/stamp97.png",
-      "price_in_USD": 0.003,
+      "price_in_USD": 0.01,
       "country": "Mongolia",
       "color": "blue",
       "category": "space exploration"
@@ -689,28 +682,28 @@ let itemsList = [
     },
     {
       "image": "img/stamp103.png",
-      "price_in_USD": 0.1,
+      "price_in_USD": 0.10,
       "country": "Norway",
       "color": "yellow",
       "category": "allegories/figure of power"
     },
     {
       "image": "img/stamp104.png",
-      "price_in_USD": 0.006,
+      "price_in_USD": 0.01,
       "country": "Mongolia",
       "color": "red",
       "category": "space exploration"
     },
     {
       "image": "img/stamp105.png",
-      "price_in_USD": 0.009,
+      "price_in_USD": 0.01,
       "country": "Mongolia",
       "color": "blue",
       "category": "space exploration"
     },
     {
       "image": "img/stamp106.png",
-      "price_in_USD": 0.044831,
+      "price_in_USD": 0.04,
       "country": "Czechoslovakia",
       "color": "red",
       "category": "fish"
@@ -759,14 +752,14 @@ let itemsList = [
     },
     {
       "image": "img/stamp115.png",
-      "price_in_USD": 4.1,
+      "price_in_USD": 2.10,
       "country": "France",
       "color": "red",
       "category": "allegories/figure of power"
     },
     {
       "image": "img/stamp116.png",
-      "price_in_USD": 0.1,
+      "price_in_USD": 0.10,
       "country": "Norway",
       "color": "red",
       "category": "allegories/figure of power"
@@ -786,16 +779,41 @@ let itemsList = [
       "category": "allegories/figure of power"
     }
   ]
-  // Get the slider and its value element
+
+  let sliderOne = document.getElementById('price-slider')
+let sliderTwo = document.getElementById('price-slider-max')
+
+let minGap = 0
+
+function slideOne() {
+  if (parseInt(sliderTwo.value) - parseInt(sliderOne.value) <= minGap)  {
+    sliderOne.value = parseInt(sliderTwo.value) - minGap;
+  }
+}
+function slideTwo(){
+  if(parseInt(sliderTwo.value) - parseInt (sliderOne.value) <= minGap){
+    sliderTwo.value = parseInt(sliderOne.value) + minGap;
+  }
+} 
+
+
+// Get the sliders and their value elements
 const priceSlider = document.getElementById("price-slider");
+const maxPriceSlider = document.getElementById("price-slider-max");
 const sliderValue = document.getElementById("slider-value");
+const sliderValueMax = document.getElementById("slider-value-max");
 
-// Set initial slider value
+// Set initial slider values
 sliderValue.innerHTML = "$" + priceSlider.value;
+sliderValueMax.innerHTML = "$" + maxPriceSlider.value;
 
-// Add event listener to update slider value
+// Add event listeners to update slider values
 priceSlider.addEventListener("input", () => {
   sliderValue.innerHTML = "$" + priceSlider.value;
+  filterImages();
+});
+maxPriceSlider.addEventListener("input", () => {
+  sliderValueMax.innerHTML = "$" + maxPriceSlider.value;
   filterImages();
 });
 
@@ -812,12 +830,22 @@ function filterImages() {
     if (
       item.price_in_USD !== "N/A" &&
       item.price_in_USD !== "" &&
-      parseFloat(item.price_in_USD) <= priceSlider.value
+      parseFloat(item.price_in_USD) >= priceSlider.value &&
+      parseFloat(item.price_in_USD) <= maxPriceSlider.value
     ) {
       // Create the image element and add to the gallery
+      let gridImg = document.createElement('div')
+      let priceNum = document.createElement('h4');
       const img = document.createElement("img");
+
+      priceNum.innerHTML = "$" + item.price_in_USD  ;
       img.src = item.image;
-      gallery.appendChild(img);
+      gridImg.className = "gridImg"
+      priceNum.className = "priceNum"
+
+      gallery.appendChild(gridImg)
+      gridImg.appendChild(priceNum)
+      gridImg.appendChild(img);
     }
   }
 }
@@ -825,34 +853,3 @@ function filterImages() {
 // Call the filterImages function to initialize the gallery
 filterImages();
 
-
-// const slider = document.getElementById("price-slider");
-// const container = document.getElementById("image-container");
-
-// slider.addEventListener("input", () => {
-//   const index = slider.value;
-//   let Placeholder = document.getElementById("placeholder")
-//   let img = document.createElement('img')
-//   Placeholder.append(img)
-  
-//       img.src = itemsList.image
-// })
-  
-
-  // adding the image files 
-  // for(i=0; i < itemsList.length; i++) {
-  
-  //   if (itemsList[i].price_in_USD < 1.00) {
-  
-  //     let Placeholder = document.getElementById("placeholder")
-  //     let img = document.createElement('img')
-  
-  //     Placeholder.append(img)
-  
-  //     img.src = itemsList[i].image
-  
-  //   }
-  
-  
-  // }
-  

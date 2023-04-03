@@ -800,14 +800,11 @@ let itemsList = [
 
   }
 
-  let menuIcon = document.getElementById('menuIcon')
-  let burgerMenu = document.getElementById('burgerMenu')
+  const burgerMenu = document.querySelector('.burger-menu');
+const burgerIcon = document.querySelector('.burger-icon');
 
-  menuIcon.addEventListener('click', function() {
-    
-  console.log('ok')
-
-  burgerMenu.style.animationPlayState = 'play'
-  })
+burgerIcon.addEventListener('click', () => {
+  burgerMenu.classList.toggle('show');
+});
   
   

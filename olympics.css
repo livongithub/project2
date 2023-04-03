@@ -29,6 +29,66 @@ h1 {
     text-decoration: underline;
 }
 
+.burger-menu {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #FAF8ED;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: all 0.3s ease-in-out;
+    z-index: 5000;
+  }
+
+  #burgerList {
+    margin-top: 50px;
+    /* line-height: 25px; */
+  }
+
+  #alle {
+    line-height: 12px;
+  }
+
+  #burgerList>*:hover{
+    text-decoration: underline;
+  }
+
+  #textBurger {
+    margin-top: 50px;
+    margin-left: -50px;
+  }
+  
+  .burger-menu.show {
+    left: 0;
+  }
+  
+  .burger-icon {
+    z-index: 5050;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+  }
+
+  #iconBurger {
+    width: 20px;
+    height: 20px;
+    filter: drop-shadow(0px 0px 0px);
+    opacity: 30%;
+    display: none;
+  }
+
+  #iconBurger:hover {
+    opacity: 60%;
+  }
+
 #back {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -102,9 +162,13 @@ img {
   }
  
   @media screen and (max-width: 844px){
+
+    #iconBurger{
+        display: block;
+    }
+
     .categories {
-        flex-direction: column;
-        gap: 10px;
+        display: none;
     }
  
      #placeholder {
@@ -112,8 +176,8 @@ img {
       grid-template-rows: repeat(1, 315px);
       margin-top: none;
 
-     } 
-  
+     }
+ 
   }
  
  @media screen and ( max-width: 640px ){
@@ -143,14 +207,6 @@ img {
         line-height: 130px;
     }
     
-    .categories {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 18px;
-        text-decoration: none;
-    }
     
     #horses {
         text-decoration: underline;

@@ -13,7 +13,7 @@
         <head>
             <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <title> fargene </title>
+            <title> prissetting </title>
             <meta name="description" content="">
             <link rel="preconnect" href="https://fonts.googleapis.com"> 
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
@@ -24,27 +24,22 @@
         <body>
     
     
-            <a href="main.html" id="back"> back to menu </a>
-    
-            <h1 id="mainTitle">Priser</h1>
+          <a href="main.html" id="back"> back to menu </a>
 
-            <div class="slider-container">
-              <input type="range" min="0" max="2" step="0.01" value="0" class="slider" id="price-slider">
-              <span>Price: <span id="slider-value">$0</span></span>
-            </div>
-            
-            <div class="gallery">
-              <!-- gallery images will be dynamically created here -->
-            </div>
-            
-    
-            <div class="categories">
+          <h1 id="mainTitle">Priser</h1>
+          <div class="wrapper">
 
-                <a href="price.html" id="minimum"> $0.00 - $1.00</a>
-                <a href="middle.html" id="middle">$1.00 - $2.00</a>
-                <a href="maximum.html" id="maximum"> > $2.00 </a>
-            
-            </div>
+          <div class="slider-container">
+              <div class="slider-track"></div>
+            <span id="price">price: <span id="slider-value">$0</span> - <span id="slider-value-max">$2</span></span>
+            <input type="range" min="0" max="2" step="0.01" value="0" class="slider" id="price-slider" oninput="slideOne()">
+            <input type="range" min="0" max="2" step="0.01" value="2" class="slider" id="price-slider-max" oninput="slideTwo()">   
+          </div>
+
+        </div>
+          <div class="gallery">
+            <!-- gallery images will be dynamically created here -->
+          </div>
     
            
     

@@ -24,7 +24,7 @@ h2 {
     padding: none;
     margin: none;
     margin-top: -35px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .categories {
@@ -83,7 +83,9 @@ img {
     border-radius: 10px;
     width: 70%;
     max-width: 800px;
+    min-width: none;
     max-height: 500px;
+    min-height: 400px;
     /* position: absolute; */
     margin-left: auto;
     margin-right: auto;
@@ -118,13 +120,14 @@ img {
     gap: 1em;
     margin-top: -50px;
     align-items: center;
-    margin-bottom: 0px;
+    justify-content: first baseline;
+    margin-bottom: -50px;
 }
 
 #information {
     display: flex;
     flex-direction: column;
-    gap: 1.5em;
+    gap: 1em;
     margin-top: 50px
 }
 
@@ -2348,6 +2351,15 @@ p {
     }
 
     @media screen and ( max-width: 400px) {
+
+        h2 {
+            font-size: 50px;
+        }
+
+        .quicklook-content{
+            flex-direction: column;
+            /* text-align: left; */
+        }
         .categories {
             gap: 2em;
         }

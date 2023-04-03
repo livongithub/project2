@@ -44,6 +44,66 @@ h1 {
     color: lightgrey;
 }
 
+.burger-menu {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #FAF8ED;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: all 0.3s ease-in-out;
+    z-index: 5000;
+  }
+
+  #burgerList {
+    margin-top: 50px;
+    /* line-height: 25px; */
+  }
+
+  #alle {
+    line-height: 12px;
+  }
+
+  #burgerList>*:hover{
+    text-decoration: underline;
+  }
+
+  #textBurger {
+    margin-top: 50px;
+    margin-left: -50px;
+  }
+  
+  .burger-menu.show {
+    left: 0;
+  }
+  
+  .burger-icon {
+    z-index: 5050;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+  }
+
+  #iconBurger {
+    width: 20px;
+    height: 20px;
+    filter: drop-shadow(0px 0px 0px);
+    opacity: 30%;
+    display: none;
+  }
+
+  #iconBurger:hover {
+    opacity: 60%;
+  }
+
 .categories >*:hover {
     text-decoration: underline;
     /* color: gray; */
@@ -221,6 +281,14 @@ img {
         flex-direction: column;
         gap: 10px;
     }
+
+    #iconBurger{
+        display: block;
+    }
+
+    .categories{
+        display: none;
+    }
  
      #placeholder {
       grid-template-columns: repeat(4, 205px);
@@ -228,17 +296,7 @@ img {
       margin-top: none;
 
      } 
-     .thirdQuery {
-        margin-top: -1050px;
-    }
-    
-    .thirdQuery>* {
-        width: 105vw;
-        height: 140px;
-        background-color: #D9D9D9;
-        opacity: 55%;
-        filter: drop-shadow(0px 4px 4px black 16%);
-    }
+
 
   
   }
@@ -250,6 +308,18 @@ img {
          grid-template-columns: repeat(3, 205px);
          grid-template-rows: repeat(4, 315px);
         } 
+
+        .thirdQuery {
+            margin-top: -1050px;
+        }
+        
+        .thirdQuery>* {
+            width: 105vw;
+            height: 140px;
+            background-color: #D9D9D9;
+            opacity: 55%;
+            filter: drop-shadow(0px 4px 4px black 16%);
+        }
      
      }
  
