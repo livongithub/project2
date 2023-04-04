@@ -793,6 +793,7 @@ let quickLookCountry = document.getElementById('country');
 let quickLookPrice = document.getElementById('price');
 let quickLookColor = document.getElementById('color');
 let quickLookSection = document.getElementById('section');
+let overlay = document.getElementById('overlay')
 
 
 for (let i = 0; i < itemsList.length; i++) {
@@ -812,6 +813,7 @@ for (let i = 0; i < itemsList.length; i++) {
     let stampInfo = itemsList[i];
 
     quicklook.style.display = "block";
+    overlay.style.display = "block"
 
     quickLookImage.src = stampInfo.image;
     quickLookCountry.innerHTML = ` country: ${stampInfo.country}`;
@@ -824,6 +826,7 @@ for (let i = 0; i < itemsList.length; i++) {
 // so that my quicklook goes away when clicking the cross, its a function i already defined in my HTML
 function hideQuickLook() {
   quicklook.style.display = "none";
+  overlay.style.display = "none"
 }
 
 

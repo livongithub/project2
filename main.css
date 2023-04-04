@@ -71,6 +71,18 @@ img {
     flex-direction: column; */
 }
 
+#overlay{
+    width: 150vw;
+    height: 150vh;
+    margin-top: -300px;
+    margin-left: -300px;
+    background-color: black;
+    opacity: .2;
+    position: fixed;
+    display: none;
+    z-index: 4000;
+}
+
 .quicklook {
     display: none;
     z-index: 4000;
@@ -1660,6 +1672,9 @@ p {
     .imageDiv {
         width: 50%;
         margin-top: -50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
    
     }
 
@@ -2404,7 +2419,7 @@ p {
 
 
 
-    }
+}
 
     @media screen and ( max-width: 400px) {
 
@@ -2413,8 +2428,21 @@ p {
         }
 
         .quicklook-content{
-            flex-direction: column;
+            flex-direction: row;
             /* text-align: left; */
+        }
+
+        #quicklook-image{
+            transform: scale(.6);
+            
+        }
+
+        #imageDiv{
+            width: 30%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: -30px;
         }
         .categories {
             gap: 2em;

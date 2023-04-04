@@ -125,6 +125,8 @@ h1 {
 #placeholder>*:hover {
     filter: drop-shadow(2px 2px 2px rgb(51, 51, 51));
     opacity: 95%;
+    /* z-index: 400; */
+    transform: rotate(0deg);
 }
 
 img {
