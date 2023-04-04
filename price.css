@@ -223,7 +223,6 @@ input[type="range"]:active::-webkit-slider-thumb{
   .gallery {
     display: grid;
     grid-template-columns: repeat(7, 205px);
-    grid-template-rows: repeat(18, 315px);
     flex-wrap: wrap;
     align-items: center; /* align items vertically */
     justify-items: center;
@@ -259,6 +258,10 @@ input[type="range"]:active::-webkit-slider-thumb{
      grid-template-columns: repeat(6, 205px);
      grid-template-rows: repeat(4, 315px);
     } 
+
+    .gallery {
+      grid-template-columns: repeat(6, 205px);
+    }
  
  }
  
@@ -267,31 +270,26 @@ input[type="range"]:active::-webkit-slider-thumb{
          font-size: 130px;
          line-height: 120px;
      }
- 
-     #placeholder {
+
+     .gallery {
       grid-template-columns: repeat(5, 205px);
-      grid-template-rows: repeat(5, 315px);
-     } 
+    }
   
   }
  
   @media screen and (max-width: 844px){
-
- 
-     #placeholder {
+    .gallery {
       grid-template-columns: repeat(4, 205px);
-      grid-template-rows: repeat(6, 315px);
-     } 
+    }
   
   }
  
  
  @media screen and ( max-width: 640px ){
  
-     #placeholder {
-         grid-template-columns: repeat(3, 205px);
-         grid-template-rows: repeat(8, 315px);
-        } 
+  .gallery {
+    grid-template-columns: repeat(3, 205px);
+  }
      
      }
  
@@ -317,4 +315,12 @@ input[type="range"]:active::-webkit-slider-thumb{
         .holders {
             display: none;
         }
+    }
+
+    @media screen and (min-width: 1435px){
+      .largeDiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
     }

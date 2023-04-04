@@ -254,6 +254,14 @@ img {
             display: none;
         }
     }
+
+    @media screen and (min-width: 1435px){
+        .largeParent {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
  
 
 

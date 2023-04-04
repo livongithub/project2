@@ -6,14 +6,14 @@
 let itemsList = [
   {
     "image": "img/stamp1.png",
-    "price_in_USD": 0.1,
+    "price_in_USD": 0.10,
     "country": "Repulic of Guinea Bisseau",
     "color": "Blue",
     "category": "birds"
   },
   {
     "image": "img/stamp2.png",
-    "price_in_USD": 0.005,
+    "price_in_USD": 0.01,
     "country": "Mongolia",
     "color": "pink",
     "category": "birds"
@@ -62,14 +62,14 @@ let itemsList = [
   },
   {
     "image": "img/stamp9.png",
-    "price_in_USD": 0.013,
+    "price_in_USD": 0.01,
     "country": "Australia",
     "color": "red",
     "category": "birds"
   },
   {
     "image": "img/stamp10.png",
-    "price_in_USD": 0.0025,
+    "price_in_USD": 0.01,
     "country": "Mongolia",
     "color": "green",
     "category": "nature"
@@ -90,7 +90,7 @@ let itemsList = [
   },
   {
     "image": "img/stamp13.png",
-    "price_in_USD": 0.053,
+    "price_in_USD": 0.05,
     "country": "Belgium",
     "color": "red",
     "category": "allegories/figure of power"
@@ -202,7 +202,7 @@ let itemsList = [
   },
   {
     "image": "img/stamp29.png",
-    "price_in_USD": 0.1,
+    "price_in_USD": 0.10,
     "country": "USA",
     "color": "blue",
     "category": "allegories/figure of power"
@@ -293,14 +293,14 @@ let itemsList = [
   },
   {
     "image": "img/stamp43.png",
-    "price_in_USD": 0.00012,
+    "price_in_USD": 0.01,
     "country": "People's Republic of Kampuchea",
     "color": "green",
     "category": "fish"
   },
   {
     "image": "img/stamp44.png",
-    "price_in_USD": 0.105,
+    "price_in_USD": 0.11,
     "country": "Republic of the Congo",
     "color": "green",
     "category": "fish"
@@ -566,8 +566,8 @@ let itemsList = [
   },
   {
     "image": "img/stamp86.png",
-    "price_in_USD": "?",
-    "country": "?",
+    "price_in_USD": "N/A",
+    "country": "Russia",
     "color": "yellow",
     "category": "horses"
   },

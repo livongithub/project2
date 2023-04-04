@@ -41,12 +41,6 @@ h2 {
     text-decoration: underline;
 }
 
-.largeParent {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 #placeholder{
     margin-top: 100px;
     display: grid;
@@ -1603,7 +1597,8 @@ p {
     }
 
     h2 {
-        margin-bottom: 30px;
+        margin-top: 20px;
+        margin-bottom: 50px;
     }
 
     #placeholder {
@@ -1620,7 +1615,7 @@ p {
         border-radius: 10px;
         width: 70%;
         max-width: 500px;
-        max-height: 200px;
+        height: 200px;
         /* position: absolute; */
         margin-left: auto;
         margin-right: auto;
@@ -1629,8 +1624,8 @@ p {
         left: 50%;
         transform: translate(-50%, -50%);
         padding: 20px;
-        padding-top: 70px;
-        padding-bottom: 70px;
+        /* padding-top: 70px;
+        padding-bottom: 70px; */
         flex-direction: column;
     }
     
@@ -1664,6 +1659,7 @@ p {
 
     .imageDiv {
         width: 50%;
+        margin-top: -50px;
    
     }
 
@@ -2375,6 +2371,38 @@ p {
         z-index: 3500;
     }
 
+    #stamp51{
+        z-index: 1450;
+    }
+    #stamp52, #stamp54{
+        z-index: 1550;
+    }
+    #stamp58 {
+        z-index: 1750;
+    }
+    #stamp61, #stamp62, #stamp63 {
+        z-index: 1850;
+    }
+    #stamp64, #stamp65, #stamp66 {
+        z-index: 1950;
+    }
+    #stamp73{
+        z-index: 2250;
+    }
+    #stamp82{
+        z-index: 2550;
+    }
+    #stamp85{
+        z-index: 2650;
+    }
+    #stamp88, #stamp89, #stamp90 {
+        z-index: 2750;
+    }
+    #stamp97{
+        z-index: 3050;
+    }
+
+
 
     }
 
@@ -2412,8 +2440,9 @@ p {
 
 
 @media screen and (min-width: 1435px){
-    .placeholder {
-        justify-items: center;
+    .largeParent {
+        display: flex;
         align-items: center;
+        justify-content: center;
     }
 }
