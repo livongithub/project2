@@ -41,17 +41,20 @@ h2 {
     text-decoration: underline;
 }
 
+.largeParent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #placeholder{
     margin-top: 100px;
-    margin-right: auto;
-    margin-left: auto;
     display: grid;
     grid-template-columns: repeat(7, 205px);
     grid-template-rows: repeat(16, 315px);
-    /* align-self: end; */
     align-items: last baseline;
-    /* display: grid;
-    grid-row: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #placeholder>*{
@@ -80,11 +83,11 @@ img {
     margin: auto;
     background-color: #FAF8ED;
     filter: drop-shadow(2px 2px 2px gray);
-    border-radius: 10px;
+    border-radius: 7px;
     width: 70%;
-    max-width: 800px;
+    max-width: 680px;
     min-width: none;
-    max-height: 500px;
+    max-height: 700px;
     min-height: 400px;
     /* position: absolute; */
     margin-left: auto;
@@ -117,11 +120,13 @@ img {
     display: flex;
     grid-template-rows: 300px, 400px;
     /* padding: 10px; */
-    gap: 1em;
-    margin-top: -50px;
+    gap: 4em;
+    margin-top: 40px;
     align-items: center;
+    justify-content: center;
     justify-content: first baseline;
     margin-bottom: -50px;
+
 }
 
 #information {
@@ -136,11 +141,22 @@ p {
     font-weight: 100;
 }
 
+.imageDiv {
+    width: 40%;
+}
+
+.infoDiv {
+    width: 60%;
+}
+
 #quicklook-image {
-    width: 50%;
-    transform: scale(.7);
+    max-height: 800px;
+    /* min-height: 200px; */
+    /* min-height: 400px; */
+    transform: scale(1.2);
     /* margin-top: 10px; */
     align-self: center;
+    filter: drop-shadow(0px 0x 0px lightgrey);
     /* margin-top: -100px; */
 }
 
@@ -1603,8 +1619,8 @@ p {
         filter: drop-shadow(2px 2px 2px gray);
         border-radius: 10px;
         width: 70%;
-        max-width: 800px;
-        max-height: 400px;
+        max-width: 500px;
+        max-height: 200px;
         /* position: absolute; */
         margin-left: auto;
         margin-right: auto;
@@ -1620,27 +1636,39 @@ p {
     
     .quicklook-content{
         display: flex;
-        grid-template-rows: 300px, 400px;
+        max-height: 400px;
         /* padding: 10px; */
         gap: .25em;
+        /* margin-top: -50px; */
         margin-top: -50px;
         align-items: last baseline;
-        margin-bottom: -20px;
+        /* margin-bottom: -120px; */
     }
     
     #information {
         display: flex;
         flex-direction: column;
+        /* align-items: center; */
         gap: .25em;
-        margin-top: 50px; 
     }
 
     #quicklook-image {
-        width: 50%;
         transform: scale(.8);
+        margin-top: 50px;
+        /* width: 50%; */
+        /* transform: scale(.8); */
         /* margin-top: 10px; */
         /* align-self: center; */
         /* margin-top: -100px; */
+    }
+
+    .imageDiv {
+        width: 50%;
+   
+    }
+
+    .infoDiv{
+        width: 50%;
     }
 
     .fourthQuery {
@@ -2384,9 +2412,8 @@ p {
 
 
 @media screen and (min-width: 1435px){
-    .placeholder>* {
-        display:block;
-        margin-left: auto;
-        margin-right: auto;
+    .placeholder {
+        justify-items: center;
+        align-items: center;
     }
 }

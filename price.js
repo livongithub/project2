@@ -1,3 +1,20 @@
+
+let sliderOne = document.getElementById('price-slider')
+let sliderTwo = document.getElementById('price-slider-max')
+
+let minGap = 0.01
+
+function slideOne() {
+  if (parseInt(sliderTwo.value) - parseInt(sliderOne.value) <= minGap)  {
+    sliderOne.value = parseInt(sliderTwo.value) - minGap;
+  }
+}
+function slideTwo(){
+  if(parseInt(sliderTwo.value) - parseInt (sliderOne.value) <= minGap){
+    sliderTwo.value = parseInt(sliderOne.value) + minGap;
+  }
+} 
+
 // defining my list 
 
 let itemsList = [
@@ -780,21 +797,6 @@ let itemsList = [
     }
   ]
 
-  let sliderOne = document.getElementById('price-slider')
-let sliderTwo = document.getElementById('price-slider-max')
-
-let minGap = 0
-
-function slideOne() {
-  if (parseInt(sliderTwo.value) - parseInt(sliderOne.value) <= minGap)  {
-    sliderOne.value = parseInt(sliderTwo.value) - minGap;
-  }
-}
-function slideTwo(){
-  if(parseInt(sliderTwo.value) - parseInt (sliderOne.value) <= minGap){
-    sliderTwo.value = parseInt(sliderOne.value) + minGap;
-  }
-} 
 
 
 // Get the sliders and their value elements
