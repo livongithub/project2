@@ -118,7 +118,7 @@ img {
     margin-top: 40px;
     align-items: center;
     justify-content: center;
-    justify-content: first baseline;
+    /* justify-content: first baseline; */
     margin-bottom: -50px;
 
 }
@@ -1636,7 +1636,7 @@ p {
         gap: .25em;
         /* margin-top: -50px; */
         margin-top: -50px;
-        align-items: last baseline;
+        -webkit-align-items: center;
         /* margin-bottom: -120px; */
     }
     
