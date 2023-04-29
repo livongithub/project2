@@ -816,10 +816,10 @@ for (let i = 0; i < itemsList.length; i++) {
     overlay.style.display = "block"
 
     quickLookImage.src = stampInfo.image;
-    quickLookCountry.innerHTML = ` country: ${stampInfo.country}`;
-    quickLookPrice.innerHTML = `price: ${stampInfo.price_in_USD ? '$' + stampInfo.price_in_USD : 'N/A'}`;
-    quickLookColor.innerHTML = `color: ${stampInfo.color}`;
-    quickLookSection.innerHTML = `category: ${stampInfo.category}`;
+    quickLookCountry.innerHTML = ` <b>country</b>: ${stampInfo.country}`;
+    quickLookPrice.innerHTML = `<b>price</b>: ${stampInfo.price_in_USD ? '$' + stampInfo.price_in_USD : 'N/A'}`;
+    quickLookColor.innerHTML = `<b>color</b>: ${stampInfo.color}`;
+    quickLookSection.innerHTML = `<b>category</b>: ${stampInfo.category}`;
   });
 }
 
